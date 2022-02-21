@@ -53,9 +53,9 @@ export default function Home() {
         
         <h3>For Fun</h3>
 
-        📸 &nbsp; Check out <Link href="/photos]" >
-        <a class="button">my photos!</a>
-        </Link>
+        📸 &nbsp; Check out <Link href="/photos" >
+        <a class="button">my photos</a>
+        </Link>!
         <br></br>
         🎿 &nbsp; I do my best to survive on blacks
         <br></br>

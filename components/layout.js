@@ -5,7 +5,9 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Shihao Cao'
-export const siteTitle = 'Next.js Sample Website'
+const big_img_size = 230
+
+export const siteTitle = name
 
 export default function Layout({ children, home }) {
   return (
@@ -32,11 +34,21 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile.jpg"
               className={utilStyles.borderCircle}
-              height={144}
-              width={144}
+              height={big_img_size}
+              width={big_img_size}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl_no_pad}>{name}</h1>
+
+            <h3> 
+            <a href="assets/Shihao_Cao_Resume.pdf" class="button" target="_blank">Resume</a>
+            &nbsp;|&nbsp;
+            <a href="https://github.com/shihaocao" class="button" target="_blank">Github</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.linkedin.com/in/shihaocao/" class="button" target="_blank">LinkedIn</a>
+            &nbsp;|&nbsp;
+            <a href="https://www.youtube.com/user/Shasty88" class="button" target="_blank">YouTube</a>
+            </h3>
           </>
         ) : (
           <>
