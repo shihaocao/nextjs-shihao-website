@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const neg_margin = -12
+const icon_size = "26"
 
 export default function Home() {
   return (
@@ -52,6 +53,18 @@ export default function Home() {
         🚀 &nbsp; Developing an <Link href="/posts/first-post" >
         <a class="button">electric Falcon 9 VTOL drone</a>
         </Link>
+
+        <div>
+        <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-hangar-airport-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://icons8.com/icon/4AAzlm0vDwwY/hangar"
+        /> &nbsp;&nbsp; All my <Link href="/hangar" >
+        <a class="button">other remote control aircraft</a>
+        </Link> builds
+        </div>
         
         <h3>For Fun</h3>
 
@@ -143,6 +156,7 @@ export default function Home() {
         </div> */}
 
     </Layout>
+    
     
   )
 }

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/layout'
 import Image from 'next/image'
+import { img_photo_descrip_block } from './img_blocks'
 
 const neg_margin = -10
 
@@ -121,59 +122,3 @@ export default function FirstPost() {
 
   )
 }
-
-function img_descrip_block(camera, lens, f_stop) {
-    return (
-        <p>
-        {camera}
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        {lens}
-        &nbsp;&nbsp;|&nbsp;&nbsp;
-        {f_stop}
-      </p>
-)}
-
-function img_photo_descrip_block(title, descript, src, alt) {
-  return (
-    <div>
-    <h3 style={{marginBottom: neg_margin}}>{title}</h3>
-    <p>{descript}</p>
-    <div className='photo-div'>
-    {/* <Image src="/photography/jumping.jpg" alt="me" width="4000" height="600" /> */}
-    <img
-      src = {src}
-      alt = {alt}
-      layout='fill'
-      objectFit='contain'
-      loading="lazy"
-    />
-    </div>
-    <hr></hr>
-    </div>
-    
-  )
-}
-
-function img_solo_block(title, src, alt, camera) {
-  return (
-    <div>
-    <h3>{title}</h3>
-    <p>
-      {camera}
-    </p>
-    <div className='photo-div'>
-    {/* <Image src="/photography/jumping.jpg" alt="me" width="4000" height="600" /> */}
-    <img
-      src = {src}
-      alt = {alt}
-      layout='fill'
-      objectFit='contain'
-      loading="lazy"
-    />
-    </div>
-    <hr></hr>
-    </div>
-    
-  )
-}
-
