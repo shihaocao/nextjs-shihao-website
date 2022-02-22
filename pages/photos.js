@@ -2,10 +2,11 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/layout'
 import Image from 'next/image'
+import styles from '../components/layout.module.css'
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <Layout layout_type={styles.container}>
       <Head>
         <title>Shihao's Photography</title>
       </Head>

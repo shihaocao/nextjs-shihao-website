@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import styles from '../components/layout.module.css'
 import Link from 'next/link'
 
 const neg_margin = -12
@@ -8,7 +9,7 @@ const icon_size = "26"
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout home layout_type={styles.containerHome}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -50,7 +51,7 @@ export default function Home() {
 
         <br></br>
 
-        🚀 &nbsp; Developing an <Link href="/posts/first-post" >
+        🚀 &nbsp; Developing an <Link href="/lodestar" >
         <a class="button">electric Falcon 9 VTOL drone</a>
         </Link>
 

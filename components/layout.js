@@ -10,9 +10,9 @@ const neg_margin_on_links = -2
 
 export const siteTitle = name
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home , layout_type}) {
   return (
-    <div className={styles.container}>
+    <div className={layout_type}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta

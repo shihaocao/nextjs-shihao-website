@@ -3,11 +3,12 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import Image from 'next/image'
 import { img_photo_descrip_block } from './img_blocks'
+import styles from '../components/layout.module.css'
 
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <Layout layout_type={styles.container}>
       <Head>
         <title>Remote Control Aircraft Hangar</title>
       </Head>

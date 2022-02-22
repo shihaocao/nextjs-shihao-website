@@ -3,12 +3,13 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import Image from 'next/image'
 import { img_photo_descrip_block } from './img_blocks'
+import styles from '../components/layout.module.css'
 
 const neg_margin = -10
 
 export default function FirstPost() {
   return (
-    <Layout>
+    <Layout layout_type={styles.container}>
       <Head>
         <title>Remote Control F-86</title>
       </Head>
@@ -41,7 +42,7 @@ export default function FirstPost() {
         </div>
 
 
-      <hr></hr>
+      {/* <hr></hr> */}
 
       <h2>Extra Details</h2>
         <p>It's got a removable wing that is rubber banded on. The hatch is now magnetic which is an upgrade from the first version.
