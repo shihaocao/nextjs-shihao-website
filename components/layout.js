@@ -6,6 +6,7 @@ import Link from 'next/link'
 
 const name = 'Shihao Cao'
 const big_img_size = 230
+const neg_margin_on_links = -2
 
 export const siteTitle = name
 
@@ -40,7 +41,7 @@ export default function Layout({ children, home }) {
             />
             <h1 className={utilStyles.heading2Xl_no_pad}>{name}</h1>
 
-            <h3> 
+            <h3 style={{marginBottom: neg_margin_on_links}}> 
             <a href="assets/Shihao_Cao_Resume.pdf" class="button" target="_blank">Resume</a>
             &nbsp;|&nbsp;
             <a href="https://github.com/shihaocao" class="button" target="_blank">Github</a>

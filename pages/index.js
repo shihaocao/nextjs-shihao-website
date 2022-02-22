@@ -3,6 +3,8 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
+const neg_margin = -12
+
 export default function Home() {
   return (
     <Layout home>
@@ -41,7 +43,7 @@ export default function Home() {
         </p>
 
         <h3>Builds</h3>
-        🏗️ &nbsp; <Link href="/posts/first-post" >
+        🏗️ &nbsp; <Link href="/f86" >
         <a class="button">Guide and plans</a>
         </Link>  for my remote control F-86
 
@@ -62,19 +64,24 @@ export default function Home() {
         🛹 &nbsp; I longboard better than I snowboard
 
         <h3>Books</h3>
-        <h4>Top 3</h4>
+        <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
         <ul>
           <li>Foundation</li>
           <li>The Dark Forest</li>
           <li>The Three Body Problem</li>
         </ul>
         
-        <h4>Next Up</h4>
+        <h4 style={{marginBottom: neg_margin}}>Next Up</h4>
         <ul>
           <li>Last Lecture</li>
           <li>All the Light We Cannot See</li>
           <li>Zero to One</li>
         </ul>
+
+        <h3>Say Hi!</h3>
+
+        shihao@contrarycap.com
+
         {/* <h2>For Fun</h2> */}
 
         {/* <div className="grid-small-top">
