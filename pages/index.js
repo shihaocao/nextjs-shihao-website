@@ -44,7 +44,7 @@ export default function Home() {
         ✈️ &nbsp; rc aircraft entheusiast  */}
         </p>
 
-        <h3>Builds</h3>
+        <h3>For Fun Builds</h3>
         🏗️ &nbsp; <Link href="/f86" >
         <a class="button">Guide and plans</a>
         </Link>  for my remote control F-86
@@ -67,7 +67,7 @@ export default function Home() {
         </Link> builds
         </div>
         
-        <h3>For Fun</h3>
+        <h3>Happiness</h3>
 
         📸 &nbsp; Check out <Link href="/photos" >
         <a class="button">my photos</a>
@@ -78,6 +78,8 @@ export default function Home() {
         🛹 &nbsp; I longboard better than I snowboard
 
         <h3>Books</h3>
+        I read books sometimes!
+
         <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
         <ul>
           <li>Foundation</li>
@@ -91,6 +93,12 @@ export default function Home() {
           <li>All the Light We Cannot See</li>
           <li>Zero to One</li>
         </ul>
+
+        And for more, here are my&nbsp; 
+        <Link href="/books" >
+        <a class="button">thoughts, feelings, and reviews</a>
+        </Link>
+        !
 
         <h3>Say Hi!</h3>
 
