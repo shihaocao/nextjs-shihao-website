@@ -49,8 +49,8 @@ export default function Layout({ children, home , layout_type}) {
             <a href="https://twitter.com/shihao_cao" class="button" target="_blank">Twitter</a>
             &nbsp;|&nbsp;
             <a href="https://www.linkedin.com/in/shihaocao/" class="button" target="_blank">LinkedIn</a>
-            &nbsp;|&nbsp;
-            <a href="https://www.youtube.com/user/Shasty88" class="button" target="_blank">YouTube</a>
+            {/* &nbsp;|&nbsp;
+            <a href="https://www.youtube.com/user/Shasty88" class="button" target="_blank">YouTube</a> */}
             </h3>
           </>
         ) : (
