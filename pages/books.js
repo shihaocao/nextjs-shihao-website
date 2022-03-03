@@ -29,15 +29,16 @@ export default function FirstPost() {
       as well as the small parts of me they made me remember or realize.
       </p>
 
+      <hr></hr>
 
 
       <h3>Foundation - Isaac Asimov</h3>
       <p>
-      Another character argues that at critical junctures in life, the critical decisions will make themselves
-      apparently, and it will be obvious that there is only one correct decision, and that it must be made now.
-      And to set these critical junctures up, you should instead focus on just getting the small decisions right,
+      Salvor Hardin argues that at critical junctures in life, the critical decisions will make themselves
+      apparent. It will be obvious that there is only one correct decision, and the critical time will reveal itself at that time.
+      To set these critical junctures up, you should instead focus on just getting the small decisions right,
       and the big ones will come in due time. I don't think this argues against planning, but advocates progress.
-      It is the small progress that will deconstruct big leaps into a methodical pyramid with a small cherry on top.
+      It is this process that will deconstruct big leaps into a methodical pyramid with a small cherry on top.
       </p>
 
       <p>A fitting end quote may be that individuals do not have the power so single handedly change the course of history.
@@ -45,8 +46,15 @@ export default function FirstPost() {
       And thus we as individuals should seek to start, and participate in these large scale phenomena.
       </p>
       <p>
-      "Never let your sense of morals prevent you from doing what's right."
-      I thought this quote was particularly controversial. One ch
+      Salvor Hardin also claims: "Never let your sense of morals prevent you from doing what's right." I think this is 
+      perhaps a bit over the top and edgey, but it is indeed only valid <b>if</b> you are right.
+      </p>
+
+      <h3>Last Lecture - Randy Pausch</h3>
+      <p>
+      I started reading this while I was in New York City during Februrary Break. I was incredibly rushed,
+      but the book is sectioned into nice small chunks that are perfect for that four stop train ride. It is very 
+      well written. The introduction almost made me cry.
       </p>
       <br></br>
 

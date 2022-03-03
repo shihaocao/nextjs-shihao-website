@@ -78,7 +78,11 @@ export default function Home() {
         🛹 &nbsp; I longboard better than I snowboard
 
         <h3>Books</h3>
-        I read books sometimes!
+        I like&nbsp;
+        <Link href="/books" >
+        <a class="button">reading books</a>
+        </Link>
+        &nbsp;to learn and enjoy new perspectives.
 
         <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
         <ul>
@@ -93,12 +97,6 @@ export default function Home() {
           <li>All the Light We Cannot See</li>
           <li>Zero to One</li>
         </ul>
-
-        And for more, here are my&nbsp; 
-        <Link href="/books" >
-        <a class="button">thoughts, feelings, and reviews</a>
-        </Link>
-        !
 
         <h3>Say Hi!</h3>
 
