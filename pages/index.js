@@ -45,9 +45,9 @@ export default function Home() {
         </p>
 
         <h3>For Fun Builds</h3>
-        🏗️ &nbsp; Created a <Link href="/f86" >
-        <a class="button">guide and plans</a>
-        </Link>  for my remote control F-86
+        🏗️ &nbsp; Designed my own <Link href="/f86" >
+        <a class="button">remote control F-86. Plans here!</a>
+        </Link> 
 
         <br></br>
 
@@ -92,9 +92,9 @@ export default function Home() {
 
         <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
         <ul>
-          <li>Foundation</li>
-          <li>The Last Lecture</li>
-          <li>The Three Body Problem</li>
+          <li>Foundation - Isaac Asimov</li>
+          <li>The Last Lecture - Randy Pausch</li>
+          <li>The Three Body Problem - Cixin Liu</li>
         </ul>
 
 
