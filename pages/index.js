@@ -93,7 +93,7 @@ export default function Home() {
         <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
         <ul>
           <li>Foundation</li>
-          <li>The Dark Forest</li>
+          <li>The Last Lecture</li>
           <li>The Three Body Problem</li>
         </ul>
 
