@@ -45,19 +45,19 @@ export default function Home() {
         </p>
 
         <h3>For Fun Builds</h3>
-        🏗️ &nbsp; Designed my own <Link href="/f86" >
+        🏗️ &nbsp; designed my own <Link href="/f86" >
         <a class="button">remote control F-86. Plans here!</a>
         </Link> 
 
         <br></br>
 
-        🚀 &nbsp; Developed an <Link href="/lodestar" >
+        🚀 &nbsp; developed an <Link href="/lodestar" >
         <a class="button">electric Falcon 9 VTOL drone</a>
         </Link>
 
         <br></br>
 
-        🛹 &nbsp; Built my own <Link href="/longboard" >
+        🛹 &nbsp; built my own <Link href="/longboard" >
         <a class="button">electric longboard</a>
         </Link>
 
@@ -68,7 +68,7 @@ export default function Home() {
           align = "left"
           style={{marginTop: 3}}
           href="https://icons8.com/icon/4AAzlm0vDwwY/hangar"
-        /> &nbsp;&nbsp; All my <Link href="/hangar" >
+        /> &nbsp;&nbsp; all my <Link href="/hangar" >
         <a class="button">other remote control aircraft</a>
         </Link> builds
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
         <Link href="/books" >
         <a class="button">reading books</a>
         </Link>
-        &nbsp;to learn and enjoy new perspectives.
+        &nbsp;to learn about new perspectives
 
         <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
         <ul>
