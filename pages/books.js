@@ -56,7 +56,11 @@ export default function FirstPost() {
       but the book is sectioned into nice small chunks that are perfect for that four stop train ride. It is very 
       well written. The introduction almost made me cry.
       </p>
-      <br></br>
+{/* 
+      <h4>"Don't complain, just work harder."</h4>
+
+      I think my version of this is that I should worry less, and just work to solve the issues that make me worry more often.
+      <br></br> */}
 
     </Layout>
 

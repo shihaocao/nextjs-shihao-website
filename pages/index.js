@@ -55,6 +55,12 @@ export default function Home() {
         <a class="button">electric Falcon 9 VTOL drone</a>
         </Link>
 
+        <br></br>
+
+        🛹 &nbsp; Built my own <Link href="/longboard" >
+        <a class="button">electric longboard</a>
+        </Link>
+
         <div>
         <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-hangar-airport-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
           width  = {icon_size}
@@ -90,13 +96,25 @@ export default function Home() {
           <li>The Dark Forest</li>
           <li>The Three Body Problem</li>
         </ul>
-        
-        <h4 style={{marginBottom: neg_margin}}>Next Up</h4>
+
+
+        {/* <div>
+
+        <h3>Blogs</h3>
+
+        I ramble every so often and write down&nbsp;
+        <Link href="/words/quotes" >
+        <a class="button">my thoughts</a>
+        </Link>
+        .
+        </div> */}
+
+        {/* <h4 style={{marginBottom: neg_margin}}>Next Up</h4>
         <ul>
           <li>Last Lecture</li>
           <li>All the Light We Cannot See</li>
           <li>Zero to One</li>
-        </ul>
+        </ul> */}
 
         <h3>Say Hi!</h3>
 
