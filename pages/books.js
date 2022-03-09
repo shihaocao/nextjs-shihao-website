@@ -56,6 +56,15 @@ export default function FirstPost() {
       but the book is sectioned into nice small chunks that are perfect for that four stop train ride. It is very 
       well written. The introduction almost made me cry.
       </p>
+
+      <p>
+      The book was a nice collection of quotes and small anecdotes that reminded me that my life was much more colorful than I thought.
+      I think it's all about perspectives. It's just like how photography makes you seek out the fleeting beautiful moments that you otherwise wouldn't notice.
+      </p>
+
+      <p>
+      After reading it, I thought more about how to chase my childhood dreams, and how to lead my life in general. Atleast in general for me, if living for myself is ambiguous, living to help others is always a great fall back.
+      </p>
 {/* 
       <h4>"Don't complain, just work harder."</h4>
 
