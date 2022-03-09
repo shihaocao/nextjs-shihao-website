@@ -45,8 +45,8 @@ export default function Home() {
         </p>
 
         <h3>For Fun Builds</h3>
-        🏗️ &nbsp; <Link href="/f86" >
-        <a class="button">Created a guide and plans</a>
+        🏗️ &nbsp; Created a <Link href="/f86" >
+        <a class="button">guide and plans</a>
         </Link>  for my remote control F-86
 
         <br></br>
