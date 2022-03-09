@@ -46,12 +46,12 @@ export default function Home() {
 
         <h3>For Fun Builds</h3>
         🏗️ &nbsp; <Link href="/f86" >
-        <a class="button">Guide and plans</a>
+        <a class="button">Created a guide and plans</a>
         </Link>  for my remote control F-86
 
         <br></br>
 
-        🚀 &nbsp; Developing an <Link href="/lodestar" >
+        🚀 &nbsp; Developed an <Link href="/lodestar" >
         <a class="button">electric Falcon 9 VTOL drone</a>
         </Link>
 
