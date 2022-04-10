@@ -97,7 +97,6 @@ export default function Home() {
           <li>The Three Body Problem - Cixin Liu</li>
         </ul>
 
-
         {/* <div>
 
         <h3>Blogs</h3>
@@ -116,9 +115,21 @@ export default function Home() {
           <li>Zero to One</li>
         </ul> */}
 
+        <h3>Random Guides</h3>
+        <ul>
+          <li><Link href="/notes/spacex-packing" >
+            <a class="button">Packing for LA</a>
+            </Link>
+          </li>
+          <li><Link href="/notes/notes-landing" >
+            <a class="button">more</a>
+            </Link>
+          </li>
+        </ul>
+
         <h3>Say Hi!</h3>
 
-        shihao@contrarycap.com
+        shihao@contrary.com
 
         {/* <h2>For Fun</h2> */}
 
