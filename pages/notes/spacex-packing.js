@@ -55,7 +55,7 @@ export default function FirstPost() {
   
       <h4>For going out</h4>
       <p>
-        <li>1x Illenium T-shirt</li>
+        <li>1x Illenium T-shirt (or equivalent haha)</li>
       </p>
 
       <h4>For going out to nicer places</h4>
@@ -102,6 +102,7 @@ export default function FirstPost() {
         <li>1x mouse-pad</li>
         <li>1x 60% mechanical keyboard</li>
         <li>1x water bottle</li>
+        <li>1x protein shake bottle</li>
         <li>1x key-chain, useful for Hangar 18 pass</li>
         <li>2x pens</li>
         <li>1x power strip</li>
@@ -112,11 +113,31 @@ export default function FirstPost() {
         <li>1x penny-board/short-board, bro longboarding in LA is so nice, but fitting this is definitely a stretch</li>
       </ul>
 
+      <h3>Toiletries</h3>
+      <ul>
+        <li>?x contacts</li>
+        <li>1x toothbrush</li>
+        <li>1x toothpaste</li>
+        <li>3x dispo-razor</li>
+        <li>150x floss-picks</li>
+        <li>1x "bag of common OTC meds"</li>
+        <li>1x tub of hair putty</li>
+      </ul>
+
       <h3>Camera Gear</h3>
       <p>I take photos, so I packed this stuff lol.</p>
       <ul>
         <li>1x DSLR</li>
         <li>1x tripod</li>
+      </ul>
+
+      <h3>Things I did NOT pack</h3>
+      <ul>
+        <li>1x mouthwash, bought it there</li>
+        <li>1x sunscreen, bought it there</li>
+        <li>1x spikeball set, CA roomie brought it</li>
+        <li>?x more razors, bought more there</li>
+        <li>1x small tub of protein powder, don't buy more than what you'll drink over the summer</li>
       </ul>
 
       <p>Lastly, if you're a pen on paper notes person, SpaceX gives you a notebook on day-one so you can take work-notes on that.</p>
