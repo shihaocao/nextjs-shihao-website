@@ -22,7 +22,7 @@ export default function FirstPost() {
       <h2>Things to Pack for SpaceX</h2>
 
       <p>
-      Here are the things I packed for my two summers at SpaceX, and hopefully you'll find it as useful inspiration. For reference this is for the Hawthorne office (in LA).
+      Here are the things I packed for my two summers at SpaceX, and hopefully you'll find it as useful inspiration. For reference this is for the Hawthorne office (in LA). I am also a dude. If you are a dudette, change items accordingly.
       </p>
       <p>
       I was able to fit this all into a backpack, carry-on, and one 50lb checked-bag, since I flew-in. If you need more space, you're packing too much.
