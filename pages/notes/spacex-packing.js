@@ -30,7 +30,7 @@ export default function FirstPost() {
       
       <p>And while I'm here, if you have a car (or access to one), you will have so much more fun in LA.</p>
       <h3>Clothes for the Office</h3>
-      <p>My favorite outfit to SpaceX was a T-shirt and gray jeans + a light jacket with Stan Smiths. Most people at SpaceX run this kind of outfit.
+      <p>My favorite outfit to SpaceX was a T-shirt and gray jeans + a light jacket with Stan Smiths. Most people at SpaceX run this kind of outfit. I gave my final presentation in a SpaceX T-shirt and jeans lol.
       </p>
       <p>
         A light jacket is the move because sometimes it gets chilly at the office because of AC. Long jeans because
