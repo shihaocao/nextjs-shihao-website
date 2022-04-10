@@ -74,6 +74,7 @@ export default function FirstPost() {
       <h4>Beach</h4>
       <ul>
         <li>1x swim trunks</li>
+        <li>3x casual shorts (Uniqlo/H&M vibes)</li>
         <li>1x flip flops</li>
         <li>1x sun-glasses (you will want these)</li>
       </ul>
@@ -85,6 +86,8 @@ export default function FirstPost() {
       <li>1x hiking pants (really useful for Boca, you can get this reimbursed lol)</li>
       <li>1x draw-string backpack, really useful for smaller hikes</li>
       <li>1x North Face Recon backpack (or any backpack with a waist-strap), really useful for longer 4+ mile hikes carrying heavier loads</li>
+      <li>1x gym shorts (for gym/active)</li>
+      <li>1x athletic shirt (for gym/active)</li>
       </ul>
 
       <h4>Boca</h4>
