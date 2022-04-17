@@ -65,6 +65,17 @@ export default function FirstPost() {
       <p>
       After reading it, I thought more about how to chase my childhood dreams, and how to lead my life in general. Atleast in general for me, if living for myself is ambiguous, living to help others is always a great fall back.
       </p>
+
+      <h3>All the Light We Cannot See - Anthony Doerr</h3>
+
+      <p>
+      I am still in the process of reading this, but the most visercal thoughts and reactions from this come from the civilians turned soldiers.
+      Each of them that tell a story about how they were facinated with the engineering and sciences, and then became swept up in something much larger than them, brings tears to my eyes.
+      </p>
+
+      <p>
+      I am still not sure how I feel about all the nuances of the Military-Industrial complex today, but reading about people who had dreams of engineering for good being turned against one another hurts really hard.
+      </p>
 {/* 
       <h4>"Don't complain, just work harder."</h4>
 

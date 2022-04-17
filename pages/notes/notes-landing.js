@@ -22,12 +22,16 @@ export default function FirstPost() {
       <h2>A place to share my notes</h2>
 
       <p>
-      I found myself giving a lot of the same random notes, pdfs, and guides to friends, so putting this up publicly to share.
+      I found myself wanting a place to put my random thoughts, notes, pdfs, and guides. So putting this up publicly to share.
       </p>
 
         <ul>
             <li><Link href="/notes/spacex-packing" >
             <a class="button">Packing for LA</a>
+            </Link>
+            </li>
+            <li><Link href="/notes/econ-thoughts" >
+            <a class="button">Economics Quick Reference</a>
             </Link>
             </li>
             <li><Link href="/notes/notes-landing" >

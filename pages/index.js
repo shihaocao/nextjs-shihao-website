@@ -81,7 +81,7 @@ export default function Home() {
         <br></br>
         🎿 &nbsp; I do my best to survive on blacks
         <br></br>
-        🛹 &nbsp; I longboard better than I snowboard
+        🛹 &nbsp; I love downhill longboarding
 
         <h3>Books</h3>
         I like&nbsp;
@@ -115,10 +115,14 @@ export default function Home() {
           <li>Zero to One</li>
         </ul> */}
 
-        <h3>Random Guides</h3>
+        <h3>Random Thoughts</h3>
         <ul>
           <li><Link href="/notes/spacex-packing" >
             <a class="button">Packing for LA</a>
+            </Link>
+          </li>
+          <li><Link href="/notes/econ-thoughts" >
+            <a class="button">Economics Quick Reference</a>
             </Link>
           </li>
           <li><Link href="/notes/notes-landing" >

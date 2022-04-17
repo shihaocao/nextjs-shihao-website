@@ -42,13 +42,13 @@ export default function Layout({ children, home , layout_type}) {
             <h1 className={utilStyles.heading2Xl_no_pad}>{name}</h1>
 
             <h3 style={{marginBottom: neg_margin_on_links}}> 
-            <a href="assets/Shihao_Cao_Resume.pdf" class="button" target="_blank">Resume</a>
+            <a href="assets/Shihao_Cao_Resume.pdf" className="button" target="_blank">Resume</a>
             &nbsp;|&nbsp;
-            <a href="https://github.com/shihaocao" class="button" target="_blank">Github</a>
+            <a href="https://github.com/shihaocao" className="button" target="_blank">Github</a>
             &nbsp;|&nbsp;
-            <a href="https://twitter.com/shihao_cao" class="button" target="_blank">Twitter</a>
+            <a href="https://twitter.com/shihao_cao" className="button" target="_blank">Twitter</a>
             &nbsp;|&nbsp;
-            <a href="https://www.linkedin.com/in/shihaocao/" class="button" target="_blank">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/shihaocao/" className="button" target="_blank">LinkedIn</a>
             {/* &nbsp;|&nbsp;
             <a href="https://www.youtube.com/user/Shasty88" class="button" target="_blank">YouTube</a> */}
             </h3>
