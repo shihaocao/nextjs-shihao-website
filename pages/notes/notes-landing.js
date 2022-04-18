@@ -26,9 +26,15 @@ export default function FirstPost() {
       </p>
 
         <ul>
-            <li><Link href="/notes/spacex-packing" >
-            <a class="button">Packing for LA</a>
-            </Link>
+            <li>
+              <Link href="/notes/spacex-packing" >
+              <a class="button">Packing for LA</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/notes/marino-recipe" >
+              <a class="button">Marino Pasta Recipe</a>
+              </Link>
             </li>
             <li><Link href="/notes/econ-thoughts" >
             <a class="button">Economics Quick Reference</a>

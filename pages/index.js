@@ -121,6 +121,11 @@ export default function Home() {
             <a class="button">Packing for LA</a>
             </Link>
           </li>
+          <li>
+              <Link href="/notes/marino-recipe" >
+              <a class="button">Marino Pasta Recipe</a>
+              </Link>
+          </li>
           <li><Link href="/notes/econ-thoughts" >
             <a class="button">Economics Quick Reference</a>
             </Link>
