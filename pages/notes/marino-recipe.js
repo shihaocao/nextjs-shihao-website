@@ -25,7 +25,7 @@ export default function FirstPost() {
 
       Luke Marino first made this for the boys at DDSS, and every rendition since has always brought good vibes to the homies.
 
-      <p>It's a nice, rich, veggie heavy, and marina based pasta.</p>
+      <p>It's a nice, rich, veggie heavy, and marinara based pasta.</p>
 
       <p>This recipe probably serves like 6 or 7 big homies.</p>
 
