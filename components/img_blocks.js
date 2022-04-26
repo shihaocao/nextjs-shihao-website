@@ -1,4 +1,4 @@
-const neg_margin = -10
+const neg_margin = -5
 
 export function img_photo_descrip_block(title, descript, src, alt) {
     return (
@@ -20,4 +20,27 @@ export function img_photo_descrip_block(title, descript, src, alt) {
       
     )
   }
+  
+export function img_photo_descrip_block_h2(title, descript, src, alt) {
+    return (
+      <div>
+      <h2 style={{marginBottom: neg_margin}}>{title}</h2>
+      <p>{descript}</p>
+      <div className='photo-div'>
+      <div style={{margin: 0, textAlign: 'center', display: 'block'}}>
+      <img
+        src = {src}
+        alt = {alt}
+        layout = 'fill'
+        objectFit='contain'
+        loading="lazy"
+      />
+      </div>
+      </div>
+
+      <hr></hr>
+      </div>
+      
+    )
+}
   

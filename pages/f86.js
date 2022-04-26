@@ -27,7 +27,7 @@ export default function FirstPost() {
         objectFit='contain'
         loading="lazy"
         />
-        </div>
+      </div>
       <h2>Current Version: MK2</h2>
 
       I designed, built and flew a remote control F-86 since I wanted to fly this at the RC scale. It is a 3 channel 64mm EDF aircraft. It flies with a 4S power system. (More details below)
