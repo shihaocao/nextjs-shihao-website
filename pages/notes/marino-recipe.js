@@ -66,7 +66,7 @@ export default function FirstPost() {
           <li>Optionally cook meat in separate pan</li>
           <li>Once veggies, add tomatoes</li>
           <li>When pasta is done, strain, and add some butter</li>
-          <li>In a large pot on medium heat, mix the pasta, veggies, (meat), marina sauce, spinach</li>
+          <li>In a large pot on medium heat, mix the pasta, veggies, (meat), marinara sauce, spinach</li>
           <li>Serve and enjoy</li>
         </ol>
 
