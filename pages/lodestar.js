@@ -113,7 +113,19 @@ export default function FirstPost() {
         navigation, and control.
         </p>
 
-        <p>Here's the link to the <Link href="https://github.com/shihaocao/lodestar">repository</Link> for Lodestar.</p>
+        <p>Here's the link to the <Link href="https://github.com/shihaocao/lodestar"> GitHub repository</Link> for Lodestar.</p>
+        
+        <p>Here's a screenshot of what the groundstation looked like as it relayed live telemetry through the radio system.</p>
+        <div className='photo-div'>
+        {/* <Image src="/photography/jumping.jpg" alt="me" width="4000" height="600" /> */}
+        <img
+        src = "/images/lodestar/lodestar_gs.jpg"
+        alt = 'Lodestar Groundstation'
+        layout='fill'
+        objectFit='contain'
+        loading="lazy"
+        />
+      </div>
         <hr/>
 
 
