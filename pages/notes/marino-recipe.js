@@ -4,6 +4,7 @@ import Layout from '../../components/layout'
 // import Image from 'next/image'
 // import { img_photo_descrip_block } from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
 
 const title = "Luke Marino Pasta"
 
@@ -28,45 +29,32 @@ export default function FirstPost() {
       <p>It's a nice, rich, veggie heavy, and marinara based pasta.</p>
 
       <p>This recipe probably serves like 6 or 7 big homies.</p>
-{/* 
-      <div className="flex-container">
-        <div className="column">
-          <img
-          src = '/images/pasta/pasta1.jpg'
-          alt = ''
-          layout='fill'
-          objectFit='contain'
-          loading="lazy"
-          width ="33%"
-          padding = "10"
-          margin = "10"
-          />
-        </div>
-        <div className="column">
-        <img
-          src = '/images/pasta/pasta1.jpg'
-          alt = ''
-          layout='fill'
-          objectFit='contain'
-          loading="lazy"
-          width ="33%"
-          padding = "10"
-          margin = "10"
-          />
+      <div class="container">
+        <div class="row">
+          <div></div>
+          <div class="col-sm my-auto">
+            <img
+            src = '/images/pasta/pasta2.jpg'
+            alt = ''
+            loading="lazy"
+            />
           </div>
-        <div className="column">
-        <img
-          src = '/images/pasta/pasta1.jpg'
-          alt = ''
-          layout='fill'
-          objectFit='contain'
-          loading="lazy"
-          width ="33%"
-          padding = "10"
-          margin = "10"
-          />
+          <div class="col-sm my-auto">
+          <img
+            src = '/images/pasta/pasta1.jpg'
+            alt = ''
+            loading="lazy"
+            />
+          </div>
+          <div class="col-sm my-auto">
+          <img
+            src = '/images/pasta/pasta3.jpg'
+            alt = ''
+            loading="lazy"
+            />
+          </div>
         </div>
-      </div> */}
+      </div>
 
       <div>
         <h3>Ingredients</h3>
