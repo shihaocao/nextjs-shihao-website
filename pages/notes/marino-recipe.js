@@ -32,21 +32,21 @@ export default function FirstPost() {
       <div class="container">
         <div class="row">
           <div></div>
-          <div class="col-sm my-auto">
+          <div class="col my-auto">
             <img
             src = '/images/pasta/pasta2.jpg'
             alt = ''
             loading="lazy"
             />
           </div>
-          <div class="col-sm my-auto">
+          <div class="col my-auto">
           <img
             src = '/images/pasta/pasta1.jpg'
             alt = ''
             loading="lazy"
             />
           </div>
-          <div class="col-sm my-auto">
+          <div class="col my-auto">
           <img
             src = '/images/pasta/pasta3.jpg'
             alt = ''
