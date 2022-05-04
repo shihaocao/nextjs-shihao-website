@@ -57,6 +57,27 @@ export default function FirstPost() {
       </div>
 
       <div>
+        <h3>The best growth engine is the churn.</h3>
+
+        <p>
+        Growth incentives such as import tariffs, technology transfer agreements, VC money, cause growth in sectors as a whole.
+        Many young companies start and take advantage of easy growth, and its a sprint to take advantage of everything available.
+        </p>
+        
+        <p>Then deliberately, or through the course of nature, hard times come about, the churn. Import tariffs are lifted, forcing companies
+          to compete on the global market. VC money dries up, and companies have to rethink their strategies. Catastrophes shift the paradigm
+          of what works, and what people pay for. These factors instigate a churn that let the best companies leap to the top, and clears
+          the market of the players who mismanage their resources and talent.
+        </p>
+
+        <p><b>
+        The companies that survive the churn are the ones who know how to sprint and leap.
+        </b></p>
+
+        <hr></hr>
+      </div>
+
+      <div>
         <h3>When people cannot achieve material happiness, they reach elsewhere.</h3>
 
         <p>

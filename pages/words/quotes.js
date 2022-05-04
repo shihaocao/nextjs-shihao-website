@@ -23,12 +23,21 @@ export default function FirstPost() {
       Takeaways from life
 
       <p>
-      So I started reading again in the Fall of 2021. And here are the takeaways I had from those readings,
-      as well as the small parts of me they made me remember or realize.
+      Many of my life expierences collapse into a few core ideas.
+      I wanted to write them down as well as some of the stories that came along with them.
       </p>
 
       <hr></hr>
 
+      <p>Ideas are useless, execution is everything.</p>
+      <p>All motivation issues stem from a lack of value provided from the work being done.</p>
+      <p>Plans are worthless, planning is everything.</p>
+      <p>You have to seek feedback.</p>
+      <p>It is not virtuous to be busy, it is virtuous to get things done.</p>
+      <p>If it's guarenteed, it's guarenteed to fail.</p>
+      <p>Complacency is the only enemy</p>
+      <p>It is 10x harder to build the machine that builds the machine.</p>
+      <p>It is 100x harder to build the team that builds the machine that builds the machine.</p>
 
       <br></br>
 

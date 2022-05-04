@@ -138,7 +138,7 @@ export default function Home() {
 
         <h3>Say Hi!</h3>
 
-        shihao@contrary.com
+        <p>shihao@contrary.com</p>
 
         {/* <h2>For Fun</h2> */}
 
