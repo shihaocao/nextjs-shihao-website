@@ -11,6 +11,15 @@ export default function Home() {
   return (
     <Layout home layout_type={styles.containerHome}>
       <Head>
+      {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NCHNQ3MTPL"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NCHNQ3MTPL');
+      </script>
         <title>{siteTitle}</title>
       </Head>
 
