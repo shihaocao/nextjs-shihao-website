@@ -55,13 +55,17 @@ export default function FirstPost() {
   
       <h4>For going out</h4>
       <p>
+      <ul>
         <li>1x Illenium T-shirt (or equivalent haha)</li>
+      </ul>
       </p>
 
       <h4>For going out to nicer places</h4>
       <p>
+      <ul>
         <li>1x black dress shirt</li>
         <li>1x black jeans</li>
+      </ul>
       </p>
       I don't think I ever actually wore this, but it's good to have if you go out to a nicer place for dinner.
 
