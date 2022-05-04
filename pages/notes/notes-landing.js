@@ -28,20 +28,20 @@ export default function FirstPost() {
         <ul>
             <li>
               <Link href="/notes/spacex-packing" >
-              <a class="button">Packing for LA</a>
+              <a>Packing for LA</a>
               </Link>
             </li>
             <li>
               <Link href="/notes/marino-recipe" >
-              <a class="button">Marino Pasta Recipe</a>
+              <a>Marino Pasta Recipe</a>
               </Link>
             </li>
             <li><Link href="/notes/econ-thoughts" >
-            <a class="button">Economics Quick Reference</a>
+            <a>Economics Quick Reference</a>
             </Link>
             </li>
             <li><Link href="/notes/notes-landing" >
-            <a class="button">more</a>
+            <a>more</a>
             </Link>
             </li>
         </ul>

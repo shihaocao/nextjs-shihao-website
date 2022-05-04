@@ -46,19 +46,19 @@ export default function Home() {
 
         <h3>For Fun Builds</h3>
         🏗️ &nbsp; designed my own <Link href="/f86" >
-        <a class="button">remote control F-86. Plans here!</a>
+        <a>remote control F-86. Plans here!</a>
         </Link> 
 
         <br></br>
 
         🚀 &nbsp; developed an <Link href="/lodestar" >
-        <a class="button">electric Falcon 9 VTOL drone</a>
+        <a>electric Falcon 9 VTOL drone</a>
         </Link>
 
         <br></br>
 
         🛹 &nbsp; built my own <Link href="/longboard" >
-        <a class="button">electric longboard</a>
+        <a>electric longboard</a>
         </Link>
 
         <div>
@@ -69,14 +69,14 @@ export default function Home() {
           style={{marginTop: 3}}
           href="https://icons8.com/icon/4AAzlm0vDwwY/hangar"
         /> &nbsp;&nbsp; all my <Link href="/hangar" >
-        <a class="button">other remote control aircraft</a>
+        <a>other remote control aircraft</a>
         </Link> builds
         </div>
         
         <h3>Happiness</h3>
 
         📸 &nbsp; Check out <Link href="/photos" >
-        <a class="button">my photos</a>
+        <a>my photos</a>
         </Link>!
         <br></br>
         🎿 &nbsp; I do my best to survive on blacks
@@ -86,7 +86,7 @@ export default function Home() {
         <h3>Books</h3>
         I like&nbsp;
         <Link href="/books" >
-        <a class="button">reading books</a>
+        <a>reading books</a>
         </Link>
         &nbsp;to learn about new perspectives
 
@@ -103,7 +103,7 @@ export default function Home() {
 
         I ramble every so often and write down&nbsp;
         <Link href="/words/quotes" >
-        <a class="button">my thoughts</a>
+        <a>my thoughts</a>
         </Link>
         .
         </div> */}
@@ -118,20 +118,20 @@ export default function Home() {
         <h3>Random Thoughts</h3>
         <ul>
           <li><Link href="/notes/spacex-packing" >
-            <a class="button">Packing for LA</a>
+            <a>Packing for LA</a>
             </Link>
           </li>
           <li>
               <Link href="/notes/marino-recipe" >
-              <a class="button">Marino Pasta Recipe</a>
+              <a>Marino Pasta Recipe</a>
               </Link>
           </li>
           <li><Link href="/notes/econ-thoughts" >
-            <a class="button">Economics Quick Reference</a>
+            <a>Economics Quick Reference</a>
             </Link>
           </li>
           <li><Link href="/notes/notes-landing" >
-            <a class="button">more</a>
+            <a>more</a>
             </Link>
           </li>
         </ul>
@@ -162,11 +162,11 @@ export default function Home() {
         </p> */}
 
         {/* <Link href="/old_index" >
-        <a class="button">Old JS</a>
+        <a>Old JS</a>
         </Link>
         <br></br>
         <Link href="/posts/first-post" >
-        <a class="button">First Post</a>
+        <a>First Post</a>
         </Link> */}
       </section>
       

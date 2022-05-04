@@ -24,10 +24,9 @@ export default function Longboard() {
         src = '/images/longboard/topboard.jpg'
         alt = ''
         layout='fill'
-        objectFit='contain'
         loading="lazy"
         />
-        </div>
+      </div>
 
       {img_photo_descrip_block("Thank You",
         "I've been working on this for 4 years now, making repairs and modifications constantly." + 
@@ -79,7 +78,6 @@ export default function Longboard() {
         src = {'/images/longboard/antiochs-board.jpg'}
         alt = ''
         layout='fill'
-        objectFit='contain'
         loading="lazy"
       />
       </div>

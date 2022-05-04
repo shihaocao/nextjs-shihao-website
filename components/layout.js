@@ -50,7 +50,7 @@ export default function Layout({ children, home , layout_type}) {
             &nbsp;|&nbsp;
             <a href="https://www.linkedin.com/in/shihaocao/" className="button" target="_blank">LinkedIn</a>
             {/* &nbsp;|&nbsp;
-            <a href="https://www.youtube.com/user/Shasty88" class="button" target="_blank">YouTube</a> */}
+            <a href="https://www.youtube.com/user/Shasty88" target="_blank">YouTube</a> */}
             </h3>
           </>
         ) : (
