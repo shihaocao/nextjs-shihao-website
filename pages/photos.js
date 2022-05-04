@@ -30,6 +30,7 @@ export default function FirstPost() {
 
       {img_block("Studying on the Arts Quad", "/photography/studying.jpg", "", "Nikon D5100", "125mm", "f5.0")}
       {img_block("Jumping", "/photography/jumping.jpg", "", "Nikon D5100", "50mm", "f1.8")}
+      {img_block("Amtrak", "/photography/amtrak.jpg", "", "iPhone 13 Pro", "26mm", "f1.5")}
       {img_block("Trolley", "/photography/sf_trolley_bridge.jpg", "", "Nikon D810", "92mm", "f5.3")}
       {img_block("Peekaboo", "/photography/peek.jpg", "", "Nikon D5100", "50mm", "f1.8")}
       {img_block("Lips", "/photography/lips2.jpg", "", "Nikon D5100", "50mm", "f1.8")}
