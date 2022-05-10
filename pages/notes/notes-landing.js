@@ -5,6 +5,40 @@ import Layout from '../../components/layout'
 // import { img_photo_descrip_block } from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
 
+export function notes_list_element(title){
+  let js_file_name = title.replaceAll(' ', '-')
+  js_file_name = js_file_name.toLowerCase()
+  let full_path = `/notes/${js_file_name}`
+  return <li>
+    <Link href={full_path} >
+      <a>{title}</a>
+      </Link>
+  </li>
+}
+
+export function front_page_post_list(){
+  return <ul>
+    {notes_list_element("Packing for SpaceX")}
+    {notes_list_element("Marino Pasta Recipe")}
+    {notes_list_element("Economics Quick Reference")}
+    <li><Link href="/notes/notes-landing" >
+    <a>more</a>
+    </Link>
+    </li>
+  </ul>
+}
+
+export function full_post_list(){
+  return <ul>
+    {notes_list_element("Packing for SpaceX")}
+    {notes_list_element("Marino Pasta Recipe")}
+    {notes_list_element("Economics Quick Reference")}
+    <li><Link href="/notes/notes-landing" >
+    <a>more</a>
+    </Link>
+    </li>
+  </ul>
+}
 
 export default function FirstPost() {
   return (
@@ -25,26 +59,7 @@ export default function FirstPost() {
       I found myself wanting a place to put my random thoughts, notes, pdfs, and guides. So putting this up publicly to share.
       </p>
 
-        <ul>
-            <li>
-              <Link href="/notes/spacex-packing" >
-              <a>Packing for LA</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/notes/marino-recipe" >
-              <a>Marino Pasta Recipe</a>
-              </Link>
-            </li>
-            <li><Link href="/notes/econ-thoughts" >
-            <a>Economics Quick Reference</a>
-            </Link>
-            </li>
-            <li><Link href="/notes/notes-landing" >
-            <a>more</a>
-            </Link>
-            </li>
-        </ul>
+      {full_post_list()}
 
       <br></br>
 

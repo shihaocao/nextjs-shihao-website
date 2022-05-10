@@ -3,6 +3,7 @@ import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Link from 'next/link'
+import { front_page_post_list } from './notes/notes-landing'
 
 const neg_margin = -12
 const icon_size = "26"
@@ -133,25 +134,7 @@ export default function Home() {
         </ul> */}
 
         <h3>Random Thoughts</h3>
-        <ul>
-          <li><Link href="/notes/spacex-packing" >
-            <a>Packing for LA</a>
-            </Link>
-          </li>
-          <li>
-              <Link href="/notes/marino-recipe" >
-              <a>Marino Pasta Recipe</a>
-              </Link>
-          </li>
-          <li><Link href="/notes/econ-thoughts" >
-            <a>Economics Quick Reference</a>
-            </Link>
-          </li>
-          <li><Link href="/notes/notes-landing" >
-            <a>more</a>
-            </Link>
-          </li>
-        </ul>
+        {front_page_post_list()}
 
         <h3>Say Hi!</h3>
 
