@@ -15,10 +15,9 @@ export default function FirstPost() {
       </Head>
       <h1>{title}</h1>
       
-      <Link href="/">
-        <a>Back to home</a>
+      <Link href="/notes/notes-landing">
+        <a>Back to notes</a>
       </Link>
-
       <br></br>
       
       <h2>Things to help frame my thoughts on economics</h2>

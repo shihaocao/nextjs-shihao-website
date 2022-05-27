@@ -19,8 +19,6 @@ export default function FirstPost() {
         <a>Back to notes</a>
       </Link>
       <br></br>
-
-      <br></br>
       
       <h2>Principles for rapid prototyping and mechanical design</h2>
 

@@ -63,19 +63,19 @@ export default function Home() {
         </p>
 
         <h3>For Fun Builds</h3>
-        🏗️ &nbsp; designed my own <Link href="/f86" >
+        🏗️ &nbsp; designed my own <Link href="/builds/f86" >
         <a>remote control F-86. Plans here!</a>
         </Link> 
 
         <br></br>
 
-        🚀 &nbsp; developed an <Link href="/lodestar" >
+        🚀 &nbsp; developed an <Link href="/builds/lodestar" >
         <a>electric Falcon 9 VTOL drone</a>
         </Link>
 
         <br></br>
 
-        🛹 &nbsp; built my own <Link href="/longboard" >
+        🛹 &nbsp; built my own <Link href="/builds/longboard" >
         <a>electric longboard</a>
         </Link>
 
@@ -86,7 +86,7 @@ export default function Home() {
           align = "left"
           style={{marginTop: 3}}
           href="https://icons8.com/icon/4AAzlm0vDwwY/hangar"
-        /> &nbsp;&nbsp; all my <Link href="/hangar" >
+        /> &nbsp;&nbsp; all my <Link href="/builds/hangar" >
         <a>other remote control aircraft</a>
         </Link> builds
         </div>

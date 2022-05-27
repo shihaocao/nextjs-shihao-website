@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 import Image from 'next/image'
-import { img_photo_descrip_block } from '../components/img_blocks'
-import styles from '../components/layout.module.css'
+import { img_photo_descrip_block } from '../../components/img_blocks'
+import styles from '../../components/layout.module.css'
 
 const neg_margin = -10
 
@@ -15,9 +15,11 @@ export default function FirstPost() {
       </Head>
       <h1>Remote Control F-86</h1>
       
-      <Link href="/">
-        <a>Back to home</a>
+      <Link href="/builds/builds-landing">
+        <a>Back to builds</a>
       </Link>
+      <br></br>
+
       <div className='photo-div'>
         {/* <Image src="/photography/jumping.jpg" alt="me" width="4000" height="600" /> */}
         <img
@@ -48,7 +50,7 @@ export default function FirstPost() {
         <p>It's got a removable wing that is rubber banded on. The hatch is now magnetic which is an upgrade from the first version.
         </p>
         <p>It weighs 670g with battery. It has approximately 670g of static thrust, and can sustain that for 2-3 minutes. Peak static thrust is 880g, but this is only maintained for the first 10 seconds of flight, enough for a take off.
-        In the air, I suspect the thrust climbs higher due to a >0 intake air speed. The thrust tube is still ~1 foot long with ~85% fan swept area at the exhuast.
+        In the air, I suspect the thrust climbs higher due to a &gt;0 intake air speed. The thrust tube is still ~1 foot long with ~85% fan swept area at the exhuast.
         </p>
 
         <h2>Parts</h2>

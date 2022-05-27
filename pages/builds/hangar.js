@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 import Image from 'next/image'
-import { img_photo_descrip_block } from '../components/img_blocks'
-import styles from '../components/layout.module.css'
+import { img_photo_descrip_block } from '../../components/img_blocks'
+import styles from '../../components/layout.module.css'
 
 
 export default function FirstPost() {
@@ -14,11 +14,11 @@ export default function FirstPost() {
       </Head>
       <h1>Remote Control Aircraft Hangar</h1>
       
-      <Link href="/">
-        <a>Back to home</a>
+      <Link href="/builds/builds-landing">
+        <a>Back to builds</a>
       </Link>
-
       <br></br>
+
       <h2>Thoughts</h2>
       I'll go over every plane I've ever built and flown.
       I've listed the aircraft in the order that I built them (all these pictures are from high school haha).

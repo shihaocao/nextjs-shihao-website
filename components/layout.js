@@ -7,6 +7,42 @@ import Link from 'next/link'
 const name = 'Shihao Cao'
 const big_img_size = 230
 const neg_margin_on_links = -2
+const neg_top_margin_on_top_header = -25
+const pos_margin_on_top_header = 20
+
+export function header_links() {
+  return <div style={
+    {
+    marginBottom: pos_margin_on_top_header,
+    marginTop:    neg_top_margin_on_top_header
+    }}> 
+  
+  &nbsp;&nbsp;
+
+  <Link href="/" >
+  <a>Home</a>
+  </Link>
+  
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+
+  <Link href="/notes/notes-landing" >
+  <a>Notes</a>
+  </Link>
+
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+
+  <Link href="/builds/builds-landing" >
+  <a>Builds</a>
+  </Link>
+
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+
+  <Link href="/photos" >
+  <a>Photos</a>
+  </Link>
+
+  </div>
+}
 
 export const siteTitle = name
 
@@ -31,6 +67,8 @@ export default function Layout({ children, home , layout_type}) {
       <header className={styles.header}>
         {home ? (
           <>
+            {header_links()}
+
             <Image
               priority
               src="/images/profile.jpg"
@@ -55,6 +93,8 @@ export default function Layout({ children, home , layout_type}) {
           </>
         ) : (
           <>
+            {header_links()}
+
             <Link href="/">
               <a>
                 <Image

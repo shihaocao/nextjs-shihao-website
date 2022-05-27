@@ -13,10 +13,6 @@ export default function FirstPost() {
         <title>Shihao's Reads</title>
       </Head>
       <h1>Shihao's Reads</h1>
-      
-      <Link href="/">
-        <a>Back to home</a>
-      </Link>
 
       <br></br>
       <h2>Thoughts</h2>

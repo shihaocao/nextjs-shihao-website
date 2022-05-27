@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout from '../components/layout'
-import styles from '../components/layout.module.css'
-import { img_photo_descrip_block_h2 } from '../components/img_blocks'
+import Layout from '../../components/layout'
+import styles from '../../components/layout.module.css'
+import { img_photo_descrip_block_h2 } from '../../components/img_blocks'
 
 const pathfinder_1_text = <p>
   This initial pathfinder taught me how to build a thurst vectoring actuators, and
@@ -26,9 +26,10 @@ export default function FirstPost() {
       </Head>
       <h1>Lodestar: An Electric VTOL Rocket</h1>
 
-      <Link href="/">
-        <a>Back to home</a>
+      <Link href="/builds/builds-landing">
+        <a>Back to builds</a>
       </Link>
+      <br></br>
 
       <div className='photo-div'>
         {/* <Image src="/photography/jumping.jpg" alt="me" width="4000" height="600" /> */}

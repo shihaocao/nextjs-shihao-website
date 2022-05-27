@@ -14,11 +14,11 @@ export default function FirstPost() {
       </Head>
       <h1>SpaceX Packing</h1>
       
-      <Link href="/">
-        <a>Back to home</a>
+      <Link href="/notes/notes-landing">
+        <a>Back to notes</a>
       </Link>
-
       <br></br>
+
       <h2>Things to Pack for SpaceX</h2>
 
       <p>
