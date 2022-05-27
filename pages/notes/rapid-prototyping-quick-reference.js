@@ -15,9 +15,10 @@ export default function FirstPost() {
       </Head>
       <h1>{title}</h1>
       
-      <Link href="/">
-        <a>Back to home</a>
+      <Link href="/notes/notes-landing">
+        <a>Back to notes</a>
       </Link>
+      <br></br>
 
       <br></br>
       
@@ -58,6 +59,22 @@ export default function FirstPost() {
         </b></p>
 
         Be careful though! Too many parts can add too many interfaces. And interfaces are basically overhead.
+        <hr></hr>
+      </div>
+
+      <div>
+        <h3>Introduce Speed Holes</h3>
+
+        <p>
+        <b>When under time crunch, see if there's a way to modify existing parts to serve the new job.
+        </b>
+        </p>
+
+        <p>
+        You might be able to re-use the same piece if you're willing so sacrifice some cosmetics.
+        There is no shame in introducing "speed-holes".
+        </p>
+
         <hr></hr>
       </div>
 
