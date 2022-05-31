@@ -28,10 +28,10 @@ export default function FirstPost() {
         <p>If the project should get done fast, avoid complex manufacturing processes.
            Especially if the project does not need to do crazy things, no need for precise manufacturing either.
            These days, 3D printing is incredibly overrated. Woodworking has become a bit of lost art, and it is often forgotten how incredible
-           of a material wood really is.
+           of a material wood is.
         </p>
 
-        <p>If you want to 3D print a plate with a set of thru holes, it sounds like you can just laser cut wood.</p>
+        <p>If you want to 3D print a plate with a set of thru-holes, it sounds like you can just laser cut wood.</p>
         <p>If you want to 3D print a long rod, you should probably just use a metal stock rod.</p>
         <p>If you want to 3D print a giant block, you can just cut down and machine 2x4 wood stock.</p>
 
@@ -50,7 +50,7 @@ export default function FirstPost() {
         
         <p>This allows bracket design, and backbone design to iterate separately from one another.</p>
 
-        <p>Of course the exception to this is in production. Once the designs have settled down, the backbone and brackets can be merged together to delete and lower part count.</p>
+        <p>Of course the exception to this is in production. Once the designs have settled down, the backbone and brackets can be merged to delete and lower part count.</p>
 
         <p><b>
         Parts are opportunities for separate iteration.
@@ -69,7 +69,7 @@ export default function FirstPost() {
         </p>
 
         <p>
-        You might be able to re-use the same piece if you're willing so sacrifice some cosmetics.
+        You might be able to re-use the same piece if you're willing to sacrifice some cosmetics.
         There is no shame in introducing "speed-holes".
         </p>
 

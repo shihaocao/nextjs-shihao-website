@@ -22,10 +22,10 @@ export default function FirstPost() {
       <h2>Things to Pack for SpaceX</h2>
 
       <p>
-      Here are the things I packed for my two summers at SpaceX, and hopefully you'll find it as useful inspiration. For reference this is for the Hawthorne office (in LA). I am also a dude. If you are a dudette, change items accordingly.
+      Here are the things I packed for my two summers at SpaceX, and hopefully you'll find this as useful inspiration. For reference, this is for the Hawthorne office (in LA). I am also a dude. If you are a dudette, change items accordingly.
       </p>
       <p>
-      I was able to fit this all into a backpack, carry-on, and one 50lb checked-bag, since I flew-in. If you need more space, you're packing too much.
+      I was able to fit this all into a backpack, carry-on, and one 50lb checked bag since I flew in. If you need more space, you're packing too much.
       </p>
       
       <p>And while I'm here, if you have a car (or access to one), you will have so much more fun in LA.</p>
@@ -34,9 +34,9 @@ export default function FirstPost() {
       </p>
       <p>
         A light jacket is the move because sometimes it gets chilly at the office because of AC. Long jeans because
-        its casual af, and people don't really wear shorts at the office. You could totally wear sneakers to the office too btw.
+        it's casual AF, and people don't really wear shorts at the office. You could totally wear sneakers to the office too btw.
       </p>
-      <p>Also if you plan on buying hella SpaceX T-shirts, you can pack less T-shirts overall and just buy merch as soon as you get there.
+      <p>Also if you plan on buying hella SpaceX T-shirts, you can pack fewer T-shirts overall and just buy merch as soon as you get there.
         Merch usually takes ~10 days to get to the office after you order it.
       </p>
 
@@ -147,7 +147,7 @@ export default function FirstPost() {
         <li>1x small tub of protein powder, don't buy more than what you'll drink over the summer</li>
       </ul>
 
-      <p>Lastly, if you're a pen on paper notes person, SpaceX gives you a notebook on day-one so you can take work-notes on that.</p>
+      <p>Lastly, if you're a pen-on-paper notes person, SpaceX gives you a notebook on day one so you can take work notes on that.</p>
 
       <ul></ul>
       <hr></hr>

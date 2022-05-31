@@ -22,28 +22,28 @@ export default function FirstPost() {
       <h2>Thoughts</h2>
       I'll go over every plane I've ever built and flown.
       I've listed the aircraft in the order that I built them (all these pictures are from high school haha).
-      I added a quick description about each plane and my memories flying them.
+      I added a quick description of each plane and my memories of flying them.
       <br></br>
       <br></br>
 
       <hr></hr>
       {img_photo_descrip_block("FT-22",
         "This is the first RC aircraft I ever built. Even though it was a speed built kit, " +
-        "I was still incredibly proud of it. It very quickly became too heavy for it too fly well, " +
-        "but even so it hung in their as a floater real well. " +
+        "I was still incredibly proud of it. It very quickly became too heavy for it to fly well, " +
+        "but even so it hung in there as a floater real well. " +
         "I've got a 109 Airforce dedicated to Mr. Huang paint scheme on it.",
         '/images/hangar/ft22.jpg',
         '')}
 
       {img_photo_descrip_block("FRC SU-37 Mk2",
-        "This bad boy is fast. It was truly super manuverable, and I loved the paint job too. " + 
+        "This bad boy is fast. It was truly super maneuverable, and I loved the paint job too. " + 
         "Unfortunately I built and flew this guy before I had the skill to control it. " +
         "Nonetheless, I had tons of fun while it was airworthy.",
         '/images/hangar/su37.jpg',
         '')}
 
       {img_photo_descrip_block("RC Powers F-35 V3",
-        "RC Powers did a great job of designing this guy. While they were around they inspired so many of my generation. It's the perfect combination of chillax, and manuverable. The giant lifting central body makes it easy for low speed cruising, while the massive control surfaces give it plenty of capability to pull off stunts.",
+        "RC Powers did a great job of designing this guy. While they were around they inspired so many of my generation. It's the perfect combination of chillax, and maneuverable. The giant lifting central body makes it easy for low speed cruising, while the massive control surfaces give it plenty of capability to pull off stunts.",
         '/images/hangar/f35.jpg',
         '')}
 
@@ -58,7 +58,7 @@ export default function FirstPost() {
         '')}
 
       {img_photo_descrip_block("FT-22 Mini",
-        "I've built two now, and these fly like mad men, nothing like their older brother. If you've got them trimmed up though, they'll spin, roll and flip all day.",
+        "I've built two now, and these fly like madmen, nothing like their older brother. If you've got them trimmed up though, they'll spin, roll and flip all day.",
         '/images/hangar/mft22.jpg',
         '')}
 
@@ -68,12 +68,12 @@ export default function FirstPost() {
         '')}
 
       {img_photo_descrip_block("FT Arrow",
-        "The flying wing nature of the FT Arrow lets it glide so well. The lack of any kind of tail/boom also lets it reach a high top speed. The only real down side is its slow roll rate.",
+        "The flying wing nature of the FT Arrow lets it glide so well. The lack of any kind of tail/boom also lets it reach a high top speed. The only real downside is its slow roll rate.",
         '/images/hangar/arrow.jpg',
         '')}
       
       {img_photo_descrip_block("F86 Mk2",
-        "My pride and pleasure, but definitely the scariest to fly.        ",
+        "My pride and pleasure, but the scariest to fly.        ",
         '/images/f86/F86mk2_glory.jpg',
         '')}
 

@@ -32,7 +32,7 @@ export default function Longboard() {
 
       {img_photo_descrip_block("Thank You",
         "I've been working on this for 4 years now, making repairs and modifications constantly." + 
-        "Shoutout to my friends at Longfellow Middle School for helping me out a ton with the inital build and absolutely stunning paintjob." + 
+        "Shoutout to my friends at Longfellow Middle School for helping me out a ton with the initial build and stunning paint job." + 
         "This project would not have been possible without a group of friends who were just excited about doing awesome things.",
         '/images/longboard/bottomboard.jpg',
         '')}
@@ -41,7 +41,7 @@ export default function Longboard() {
       <p>I followed this excellent guide from <a href = "http://www.instructables.com/id/Electric-Longboard/" >instructables</a> written by cosma42.</p>
 
       <h2>Why I built it</h2>
-      <p>At a the Science Olympiad 2015 Nationals Tournament, I saw a guy riding around campus with one, but it seemed like it was DIY not bought. When he showed us his board, he convinced me that it was was
+      <p>At the Science Olympiad 2015 Nationals Tournament, I saw a guy riding around campus with one, but it seemed like it was DIY not bought. When he showed us his board, he convinced me that it was was
       incredibly easy to build on your own, so I took it upon myself to follow some random guides to piece together my own. </p>
 
       <p></p>
@@ -50,15 +50,15 @@ export default function Longboard() {
 
       {img_photo_descrip_block("Paint Scheme",
         "After cutting out the board, we painted the board using several sprays of blue spray paint. " +
-        "The dragon design was cut manually with an exacto knife onto cardboard with following the outline of a printed dragon.",
+        "The dragon design was cut manually with an Exacto knife onto cardboard following the outline of a printed dragon.",
         '/images/longboard/bottomboard.jpg',
         '')}
       {img_photo_descrip_block("Electronics",
-        "The two 3S 5000mah LiPOs are run in series and stuffed inside the old harddrive cage. " +
-        "It's held in from the front using velcro, and tucked in at the back using the duct-tape wrapped " +
+        "The two 3S 5000mah LiPOs are run in series and stuffed inside the old hard drive cage. " +
+        "It's held in from the front using velcro  and tucked in at the back using the duct-tape wrapped " +
         "foam block. " +
         "The ESC is bound to the plywood plank using picture hangar wire. The RX and switch box are hot glued down next to it. " + 
-        "Both the harddrive cage and the plank are then screwed into the board.",
+        "Both the hard drive cage and the plank are then screwed into the board.",
         '/images/longboard/electronics.jpg',
         'Electronics')}
 

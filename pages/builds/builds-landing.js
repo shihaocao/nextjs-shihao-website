@@ -25,7 +25,7 @@ export default function FirstPost() {
       <h2>A place for all my for fun builds</h2>
 
       <p>
-      Here's a few of the few things I've built for fun over the last few years!
+      Here are a few of the few things I've built for fun over the last few years!
       </p>
 
       {full_post_list()}

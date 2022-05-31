@@ -32,7 +32,7 @@ export default function FirstPost() {
       </div>
       <h2>Current Version: MK2</h2>
 
-      I designed, built and flew a remote control F-86 since I wanted to fly this at the RC scale. It is a 3 channel 64mm EDF aircraft. It flies with a 4S power system. (More details below)
+      I designed, built and flew a remote control F-86 since I wanted to fly this at the RC scale. It is a 3-channel 64mm EDF aircraft. It flies with a 4S power system. (More details below)
       The Mk2 is a heavier and faster version of the original Mk1. 
 
       <h2>Plans</h2>
@@ -47,10 +47,10 @@ export default function FirstPost() {
       {/* <hr></hr> */}
 
       <h2>Extra Details</h2>
-        <p>It's got a removable wing that is rubber banded on. The hatch is now magnetic which is an upgrade from the first version.
+        <p>It's got a removable wing that is rubber-banded on. The hatch is now magnetic which is an upgrade from the first version.
         </p>
-        <p>It weighs 670g with battery. It has approximately 670g of static thrust, and can sustain that for 2-3 minutes. Peak static thrust is 880g, but this is only maintained for the first 10 seconds of flight, enough for a take off.
-        In the air, I suspect the thrust climbs higher due to a &gt;0 intake air speed. The thrust tube is still ~1 foot long with ~85% fan swept area at the exhuast.
+        <p>It weighs 670g with the battery. It has approximately 670g of static thrust and can sustain that for 2-3 minutes. Peak static thrust is 880g, but this is only maintained for the first 10 seconds of flight, enough for a take off.
+        In the air, I suspect the thrust climbs higher due to a &gt;0 intake airspeed. The thrust tube is still ~1 foot long with ~85% fan swept area at the exhuast.
         </p>
 
         <h2>Parts</h2>
@@ -90,7 +90,7 @@ export default function FirstPost() {
       <h2>Why I Built It</h2>
 
       <p>I used Fusion 360 to design the entire aircraft. I then used a bit of AutoCAD to help export my designs for laser cutting.
-      If you're interested in the details of the design work, or would like to make your own,
+      If you're interested in the details of the design work or would like to make your own,
       check out my <Link href="https://www.youtube.com/user/Shasty88">YouTube Channel</Link>!</p>
 
       <h2>Pictures</h2>

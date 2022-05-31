@@ -67,7 +67,7 @@ export default function FirstPost() {
       <h2>Years Before</h2>
       
       <p>
-        The first attempts at this project, actually started back in 2017
+        The first attempts at this project actually started back in 2017
         before I had even met Govind. Together with Matthew Cox, and Jude Bedessem,
         we studied how to build a similar system for recovery of high power rockets.
 
@@ -99,17 +99,17 @@ export default function FirstPost() {
         on the craft is achieved through differential thrust,
         and pitch & yaw is achieved through thrust
         vectoring vanes actuated by servos inside the
-        thrust structure. The two motors have seperate power systems, and one of them also powers the avionics stack.
+        thrust structure. The two motors have separate power systems, and one of them also powers the avionics stack.
         </p>
       <hr></hr>
 
       <h2>Flight Software and Ground Software</h2>
         <p>
-        Flight software on this vehicle was derived from the flight software on PAN (my satellite team). This gave the
-        fine grained control that I did not have from previous commerical flight computers. I
+        Flight software on this vehicle was derived from the flight software on PAN (my satellite team). This gave me the
+        fine-grained control that I did not have from previous commercial flight computers. I
         wrote all code to parse orientation and position data from the onboard IMU and Barometer. I
         wrote a mission manager state machine that guided the craft through sensor initialization, flight,
-        and post-landing. To aid with initial development, I also developed a custom NodeJS based web
+        and post-landing. To aid with initial development, I also developed a custom NodeJS-based web
         ground station. I also wrote all the boilerplate code that my partner plugged into for guidance,
         navigation, and control.
         </p>
@@ -135,8 +135,8 @@ export default function FirstPost() {
           I worked with my partner to develop an
           iterative testing campaign that would guide us to full mission success. We created a
           Matlab simulation that verified simple attitude control PID loops. We then built the craft and did
-          thrust testing to verify that it was capable of a greater than one thrust to weight ratio. To aid in development,
-          and figuring out why flight failures happen, I added SD-card datalogging for post-flight analysis.
+          thrust testing to verify that it was capable of a greater than one thrust to weight ratio. To aid in the development,
+          and figuring out why flight failures happen, I added SD-card data logging for post-flight analysis.
           </p>
           <hr/>
 

@@ -37,19 +37,19 @@ export default function FirstPost() {
       It is this process that will deconstruct big leaps into a methodical pyramid with a small cherry on top.
       </p>
 
-      <p>A fitting end quote may be that individuals do not have the power so single handedly change the course of history.
+      <p>A fitting end quote may be that individuals do not have the power to so single-handedly change the course of history.
       Only things at the level of sociology, philosophy, and economics have the power to change the society we live in.
-      And thus we as individuals should seek to start, and participate in these large scale phenomena.
+      And thus we as individuals should seek to start, and participate in these large-scale phenomena.
       </p>
       <p>
       Salvor Hardin also claims: "Never let your sense of morals prevent you from doing what's right." I think this is 
-      perhaps a bit over the top and edgey, but it is indeed only valid <b>if</b> you are right.
+      perhaps a bit over the top and edgy, but it is indeed only valid <b>if</b> you are right.
       </p>
 
       <h3>Last Lecture - Randy Pausch</h3>
       <p>
-      I started reading this while I was in New York City during Februrary Break. I was incredibly rushed,
-      but the book is sectioned into nice small chunks that are perfect for that four stop train ride. It is very 
+      I started reading this while I was in New York City during February Break. I was incredibly rushed,
+      but the book is sectioned into nice small chunks that are perfect for that four-stop train ride. It is very 
       well written. The introduction almost made me cry.
       </p>
 
@@ -59,14 +59,15 @@ export default function FirstPost() {
       </p>
 
       <p>
-      After reading it, I thought more about how to chase my childhood dreams, and how to lead my life in general. Atleast in general for me, if living for myself is ambiguous, living to help others is always a great fall back.
+      After reading it, I thought more about how to chase my childhood dreams, and how to lead my life in general.
+      At least in general for me, if living for myself is ambiguous, living to help others is always a great fallback.
       </p>
 
       <h3>All the Light We Cannot See - Anthony Doerr</h3>
 
       <p>
-      I am still in the process of reading this, but the most visercal thoughts and reactions from this come from the civilians turned soldiers.
-      Each of them that tell a story about how they were facinated with the engineering and sciences, and then became swept up in something much larger than them, brings tears to my eyes.
+      I am still in the process of reading this, but the most visceral thoughts and reactions from this come from the civilians turned soldiers.
+      Each of them that tell a story about how they were fascinated with the engineering and sciences, and then became swept up in something much larger than them, brings tears to my eyes.
       </p>
 
       <p>

@@ -31,7 +31,7 @@ export default function FirstPost() {
 
         <p>
         The relevant point here is how Taiwan broadly implemented mandatory college education. This created a massively overly educated workforce. There was a vast increase
-        in the supply of talent, but there was not a corresponding growth in demand for that talent. Industry in general did not scale to employ those people.
+        in the supply of talent, but there was not a corresponding growth in demand for that talent. In general, industry did not scale to employ those people.
         </p>
 
         <p>
@@ -44,7 +44,7 @@ export default function FirstPost() {
         <p>
         My culminating take is that in our next generation, and in any developing nation, it is indeed important to emphasize education, as education gives a solid toolset to do things.
         But at the end of the day, it is still a toolset.
-        And you still need the grit, dreams, and work ethic, and perhaps a broader entrepreneurial toolset in order to put the knowledge and experience from education
+        And you still need the grit, dreams, and work ethic, and perhaps a broader entrepreneurial toolset to put the knowledge and experience from education
         to good use.
         </p>
 
@@ -60,7 +60,7 @@ export default function FirstPost() {
 
         <p>
         Growth incentives such as import tariffs, technology transfer agreements, VC money, cause growth in sectors as a whole.
-        Many young companies start and take advantage of easy growth, and its a sprint to take advantage of everything available.
+        Many young companies start and take advantage of easy growth, and it's a sprint to take advantage of everything available.
         </p>
         
         <p>Then deliberately, or through the course of nature, hard times come about, the churn. Import tariffs are lifted, forcing companies
@@ -70,7 +70,7 @@ export default function FirstPost() {
         </p>
 
         <p><b>
-        The companies that survive the churn are the ones who know how to sprint and leap.
+        The companies that survive the churn are the ones that know how to sprint and leap.
         </b></p>
 
         <hr></hr>
