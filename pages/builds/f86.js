@@ -50,7 +50,7 @@ export default function FirstPost() {
         <p>It's got a removable wing that is rubber-banded on. The hatch is now magnetic which is an upgrade from the first version.
         </p>
         <p>It weighs 670g with the battery. It has approximately 670g of static thrust and can sustain that for 2-3 minutes. Peak static thrust is 880g, but this is only maintained for the first 10 seconds of flight, enough for a take off.
-        In the air, I suspect the thrust climbs higher due to a &gt;0 intake airspeed. The thrust tube is still ~1 foot long with ~85% fan swept area at the exhuast.
+        In the air, I suspect the thrust climbs higher due to a &gt;0 intake airspeed. The thrust tube is still ~1 foot long with ~85% fan swept area at the exhaust.
         </p>
 
         <h2>Parts</h2>
