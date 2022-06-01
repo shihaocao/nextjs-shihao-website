@@ -30,7 +30,6 @@ export default function FirstPost() {
       <p>This recipe probably serves like 6 or 7 big homies.</p>
       <div class="container">
         <div class="row">
-          <div></div>
           <div class="col my-auto">
             <img
             src = '/images/pasta/pasta2.jpg'
@@ -97,9 +96,6 @@ export default function FirstPost() {
         </ol>
 
       </div>
-
-      <br></br>
-
     </Layout>
 
   )

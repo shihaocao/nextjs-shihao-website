@@ -37,7 +37,7 @@ export default function Home() {
 
         <h3>Currently</h3>
         <p>
-        🏫 &nbsp; bachelors in Computer Science at Cornell University
+        🏫 &nbsp; Bachelors in Computer Science at Cornell University
         <br></br>
         🔄 &nbsp; Venture Partner at Contrary Capital
         <br></br>
@@ -55,7 +55,7 @@ export default function Home() {
         {/* <br></br>
         🔩 &nbsp; speed up high rate manufacturing at SpaceX */}
         <br></br>
-        👨🏻‍🎓 &nbsp; aerospace/CS at thomas jefferson
+        👨🏻‍🎓 &nbsp; aerospace/CS at TJ
         <br></br>
         ✈️ &nbsp; founded and led a drone team in high school 
         {/* <br></br>
@@ -93,7 +93,7 @@ export default function Home() {
         
         <h3>Happiness</h3>
 
-        📸 &nbsp; Check out <Link href="/photos" >
+        📸 &nbsp; check out <Link href="/photos" >
         <a>my photos</a>
         </Link>!
         <br></br>

@@ -76,8 +76,6 @@ export default function FirstPost() {
         <hr></hr>
       </div>
 
-      <br></br>
-
     </Layout>
 
   )

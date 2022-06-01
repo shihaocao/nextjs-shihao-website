@@ -150,10 +150,6 @@ export default function FirstPost() {
       <p>Lastly, if you're a pen-on-paper notes person, SpaceX gives you a notebook on day one so you can take work notes on that.</p>
 
       <ul></ul>
-      <hr></hr>
-
-
-      <br></br>
 
     </Layout>
 
