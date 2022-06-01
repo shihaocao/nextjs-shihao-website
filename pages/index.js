@@ -138,7 +138,10 @@ export default function Home() {
 
         <h3>Say Hi!</h3>
 
-        <p>shihao@contrary.com</p>
+        <p>literally dm me on&nbsp;
+          <a href="https://twitter.com/shihao_cao" className="button" target="_blank">Twitter</a>
+          &nbsp;haha
+          </p>
 
         {/* <h2>For Fun</h2> */}
 
