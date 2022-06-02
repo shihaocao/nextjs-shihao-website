@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
 import Image from 'next/image'
-import img_photo_descrip_block from '../../components/img_blocks'
+import {img_photo_descrip_block} from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
 
 const neg_margin = -10

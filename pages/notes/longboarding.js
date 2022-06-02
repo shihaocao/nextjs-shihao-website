@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { centered_img_block, dual_centered_img_block } from '../../components/img_blocks';
+import { centered_img_block, dual_centered_img_block } from '../../components/centered_img_blocks';
 import Layout from '../../components/layout'
 // import Image from 'next/image'
 // import { img_photo_descrip_block } from '../../components/img_blocks'
