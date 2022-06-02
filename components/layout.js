@@ -142,7 +142,7 @@ export default function Layout({ children, home , layout_type}) {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-              <Link href="/" align="right">
+              <Link href="/notes/how-i-made-this-website" align="right">
               <a>Source</a>
               </Link>
         </div>
