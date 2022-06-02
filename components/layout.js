@@ -121,10 +121,6 @@ export default function Layout({ children, home , layout_type}) {
       </header>
       <main>{children}</main>
       {!home && (
-        <div class="container">
-
-        <div class = "row">
-          <div class = "col my-auto">
             <div className={styles.backToHome}>
 
               <Link href="/">
@@ -149,14 +145,6 @@ export default function Layout({ children, home , layout_type}) {
               <Link href="/" align="right">
               <a>Source</a>
               </Link>
-            
-            </div>
-          </div>
-          <div class = "col my-auto">
-
-          </div>
-
-        </div>
         </div>
 
       )}
