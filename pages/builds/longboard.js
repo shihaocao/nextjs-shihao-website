@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
 import Image from 'next/image'
-import { img_photo_descrip_block } from '../../components/img_blocks'
+import img_photo_descrip_block from '../../components/img_blocks'
 import styles from '../../components/layout.module.css'
 
 const neg_margin = -10
@@ -21,9 +21,8 @@ export default function Longboard() {
       <br></br>
 
       <div className='photo-div'>
-        {/* <Image src="/photography/jumping.jpg" alt="me" width="4000" height="600" /> */}
         <img
-        src = '/images/longboard/topboard.jpg'
+        src = '/images/longboard/bottomboard.jpg'
         alt = ''
         layout='fill'
         loading="lazy"
@@ -34,14 +33,15 @@ export default function Longboard() {
         "I've been working on this for 4 years now, making repairs and modifications constantly." + 
         "Shoutout to my friends at Longfellow Middle School for helping me out a ton with the initial build and stunning paint job." + 
         "This project would not have been possible without a group of friends who were just excited about doing awesome things.",
-        '/images/longboard/bottomboard.jpg',
+        '/images/longboard/topboard.jpg',
         '')}
 
       <h2>How to build it</h2>
       <p>I followed this excellent guide from <a href = "http://www.instructables.com/id/Electric-Longboard/" >instructables</a> written by cosma42.</p>
 
       <h2>Why I built it</h2>
-      <p>At the Science Olympiad 2015 Nationals Tournament, I saw a guy riding around campus with one, but it seemed like it was DIY not bought. When he showed us his board, he convinced me that it was was
+      <p>At the Science Olympiad 2015 Nationals Tournament, I saw a guy riding around campus with one, but it seemed like it was DIY not bought.
+        When he showed us his board, he convinced me that it was
       incredibly easy to build on your own, so I took it upon myself to follow some random guides to piece together my own. </p>
 
       <p></p>
@@ -83,7 +83,6 @@ export default function Longboard() {
         loading="lazy"
       />
       </div>
-      <hr></hr>
       </div>
 
       {/* {img_photo_descrip_block("More Longboards",

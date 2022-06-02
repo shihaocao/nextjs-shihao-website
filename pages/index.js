@@ -99,7 +99,7 @@ export default function Home() {
         <br></br>
         🎿 &nbsp; I do my best to survive on blacks
         <br></br>
-        🛹 &nbsp; I love downhill longboarding
+        🛹 &nbsp; I love <Link href="/notes/longboarding">downhill longboarding</Link>
 
         <h3>Books</h3>
         I like&nbsp;

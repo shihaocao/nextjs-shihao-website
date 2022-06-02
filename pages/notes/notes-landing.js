@@ -24,6 +24,8 @@ export function front_page_post_list(){
       {notes_list_element("Rapid Prototyping Quick Reference", "notes")}
       {notes_list_element("Economics Quick Reference", "notes")}
       {notes_list_element_full("How I Made This Website", "how-i-made-this-website", "notes")}
+      {notes_list_element_full("Longboarding", "longboarding", "notes")}
+
     </ul>
   }
   
