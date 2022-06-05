@@ -25,17 +25,17 @@ export default function FirstPost() {
       <div>
         <h3>Avoid complex manufacturing processes</h3>
 
-        <p>If the project should get done fast, avoid complex manufacturing processes.
-           Especially if the project does not need to do crazy things, no need for precise manufacturing either.
+        <p>Complex manufacturing processes are not only slow themselves, but they often add extra design constraints.
+           Only use something as complex as you need to.
            These days, 3D printing is incredibly overrated. Woodworking has become a bit of lost art, and it is often forgotten how incredible
            of a material wood is.
         </p>
 
-        <p>If you want to 3D print a plate with a set of thru-holes, it sounds like you can just laser cut wood.</p>
-        <p>If you want to 3D print a long rod, you should probably just use a metal stock rod.</p>
-        <p>If you want to 3D print a giant block, you can just cut down and machine 2x4 wood stock.</p>
+        <p>If you want to 3D print a plate with thru-holes, consider laser cutting wood (or even mark and drill).</p>
+        <p>If you want to 3D print a long rod, consider a metal stock rod instead.</p>
+        <p>If you want to 3D print a giant block, consider cutting down 2x4 wood stock.</p>
 
-        <p><b>Ask what functions you need a part to do, and ask if you can make it with what you already have.
+        <p><b>Consider trading repeatability for first pass manufacturing speed.
         </b></p>
         <hr></hr>
       </div>
@@ -53,10 +53,10 @@ export default function FirstPost() {
         <p>Of course the exception to this is in production. Once the designs have settled down, the backbone and brackets can be merged to delete and lower part count.</p>
 
         <p><b>
-        Parts are opportunities for separate iteration.
+        Seperate parts are opportunities for separate iteration.
         </b></p>
 
-        Be careful though! Too many parts can add too many interfaces. And interfaces are basically overhead.
+        Be careful though! Having too many parts can add too many interfaces, and interfaces add overhead.
         <hr></hr>
       </div>
 

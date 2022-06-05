@@ -101,19 +101,19 @@ export default function Home() {
         <br></br>
         🛹 &nbsp; I love <Link href="/notes/longboarding">downhill longboarding</Link>
 
-        <h3>Books</h3>
-        I like&nbsp;
+        <h3>Top 3 Books</h3>
+        {/* I like&nbsp;
         <Link href="/books" >
         <a>reading books</a>
         </Link>
-        &nbsp;to learn about new perspectives
+        &nbsp;to learn about new perspectives */}
 
-        <h4  style={{marginBottom: neg_margin}}>Top 3</h4>
-        <ul>
+        {/* <h4  style={{marginBottom: neg_margin}}>Top 3</h4> */}
+        <ol>
           <li>Foundation - Isaac Asimov</li>
-          <li>The Last Lecture - Randy Pausch</li>
           <li>The Three Body Problem - Cixin Liu</li>
-        </ul>
+          <li>The Last Lecture - Randy Pausch</li>
+        </ol>
 
         {/* <div>
 
