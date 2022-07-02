@@ -9,7 +9,9 @@ export function front_page_post_list(){
     return <ul>
       {notes_list_element("Packing for SpaceX", "notes")}
       {notes_list_element("Marino Pasta Recipe", "notes")}
-      {notes_list_element("Rapid Prototyping Quick Reference", "notes")}
+      {notes_list_element("Seeking Epilogue", "notes")}
+
+      {/* {notes_list_element("Rapid Prototyping Quick Reference", "notes")} */}
       <li><Link href="/notes/notes-landing" >
       <a>more</a>
       </Link>
@@ -24,6 +26,8 @@ export function front_page_post_list(){
       {notes_list_element("Rapid Prototyping Quick Reference", "notes")}
       {/* {notes_list_element("Economics Quick Reference", "notes")} */}
       {notes_list_element("Lovely Pina Colada", "notes")}
+      {notes_list_element("Seeking Epilogue", "notes")}
+
       {notes_list_element_full("How I Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("Longboarding", "longboarding", "notes")}
 

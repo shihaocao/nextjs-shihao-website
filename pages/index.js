@@ -112,7 +112,7 @@ export default function Home() {
         <ol>
           <li>Foundation - Isaac Asimov</li>
           <li>The Three Body Problem - Cixin Liu</li>
-          <li>The Last Lecture - Randy Pausch</li>
+          <li>All the Light We Cannot See - Anthony Doerr</li>
         </ol>
 
         {/* <div>
