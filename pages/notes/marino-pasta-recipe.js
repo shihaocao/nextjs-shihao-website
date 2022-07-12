@@ -28,31 +28,6 @@ export default function FirstPost() {
       <p>It's a nice, rich, veggie-heavy, and marinara-based pasta.</p>
 
       <p>This recipe probably serves like 6 or 7 big homies.</p>
-      <div class="container">
-        <div class="row">
-          <div class="col my-auto">
-            <img
-            src = '/images/pasta/pasta2.jpg'
-            alt = ''
-            loading="lazy"
-            />
-          </div>
-          <div class="col my-auto">
-          <img
-            src = '/images/pasta/pasta1.jpg'
-            alt = ''
-            loading="lazy"
-            />
-          </div>
-          <div class="col my-auto">
-          <img
-            src = '/images/pasta/pasta3.jpg'
-            alt = ''
-            loading="lazy"
-            />
-          </div>
-        </div>
-      </div>
 
       <div>
         <h3>Ingredients</h3>

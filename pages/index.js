@@ -79,6 +79,22 @@ export default function Home() {
         <a>electric longboard</a>
         </Link>
 
+        <br></br>
+
+        <div>
+        <img src="/images/tower-of-cards/poker-cards.png"
+          width  = {icon_size}
+          height = {icon_size}
+          align = "left"
+          style={{marginTop: 3}}
+          href="https://www.flaticon.com/free-icons/playing-cards"
+          comment="Playing cards icons created by Freepik - Flaticon"
+        />
+        &nbsp;&nbsp; built a 7' 7" <Link href="/builds/tower-of-cards" >
+        <a>tower of cards</a>
+        </Link>
+        </div>
+
         <div>
         <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-hangar-airport-vitaliy-gorbachev-flat-vitaly-gorbachev.png"
           width  = {icon_size}
