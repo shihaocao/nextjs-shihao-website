@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../../components/layout'
 // import Image from 'next/image'
-// import { img_photo_descrip_block } from '../../components/img_blocks'
+import { triple_centered_img_block } from '../../components/centered_img_blocks'
 import styles from '../../components/layout.module.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
 
@@ -28,6 +28,10 @@ export default function FirstPost() {
       <p>It's a nice, rich, veggie-heavy, and marinara-based pasta.</p>
 
       <p>This recipe probably serves like 6 or 7 big homies.</p>
+
+      {triple_centered_img_block("pasta/pasta2.jpg",
+                                 "pasta/pasta1.jpg",
+                                 "pasta/pasta3.jpg")}
 
       <div>
         <h3>Ingredients</h3>

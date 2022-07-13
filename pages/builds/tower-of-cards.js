@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { centered_img_block, dual_centered_img_block } from '../../components/centered_img_blocks';
+import { centered_img_block, dual_centered_img_block, triple_centered_img_block } from '../../components/centered_img_blocks';
 import Layout from '../../components/layout'
 
 import styles from '../../components/layout.module.css'
@@ -68,17 +68,40 @@ export default function FirstPost() {
             </li>
         </ul>
         <h4>Base</h4>
-        <p>&lt;week 1&gt;</p>
-        <p>I used sheets of paper themselves to measure out the 16.5&rdquo; x 16.5&rdquo; base. Then started stacking.</p>
-        <p>The stacking method I used is called the &ldquo;four card cell&rdquo;&nbsp;<a href="https://www.wikihow.com/Build-a-House-of-Cards">https://www.wikihow.com/Build-a-House-of-Cards</a></p>
-        <p>. This boxed shape is much stronger than the standard triangular cell as each card is near vertical, and you even have some fault tolerance spending on how the cards are leaned.</p>
+
+        {triple_centered_img_block('tower-of-cards/base_1.jpg',
+                                   'tower-of-cards/base_2.jpg',
+                                   'tower-of-cards/base_3.jpg')}
+
+        <p>I used sheets of paper themselves to measure out the 16.5&rdquo; x 16.5&rdquo; base. Then I started stacking.</p>
+        <p>The stacking method I used is called the <a href="https://www.wikihow.com/Build-a-House-of-Cards">"four-card cell"</a>.</p>
+        <p>This boxed shape is much stronger than the standard triangular cell as each card is near vertical, and you even have some fault tolerance spending on how the cards are leaned.</p>
         <p>Once I finished a layer, (taking care to keep the numbers outward-facing for a consistent aesthetic), I would cap it off with the required sheets of paper.</p>
+        
         <h4>Growing the Tower</h4>
-        <p>&lt;week 2&gt;</p>
-        <p>As the tower grew, it became tough to line up each new floor directly below it. For the floors (sheets of paper) I essentially stared down the corners from above and tried to make sure they were in line. To line up the cards themselves, I took advantage of the translucency of the cards and patterned off the faint edges of the cards through the paper. I also improvised a measuring tape in order to try and center the cell in the middle of the 3 x 3 grid.</p>
-        <p>Overall, my philosophy for this build was not to achieve perfection, but to instead: design and build on the fly. I thought it would be more fun to overcome engineering challenges as they come up. And lastly, I knew that my structure should easily have enough structural margin to tolerate small misalignments as the tower grew taller.</p>
-        <p>Corner Supports</p>
-        <p>&lt;week 3 and week 4&gt;</p>
+        
+
+        {centered_img_block('tower-of-cards/short.jpg',
+                            {subtitle : "Tower after day 2"})}
+
+        <p>As the tower grew, it became tough to line up each new floor directly below it.
+            For the floors (sheets of paper) I essentially stared down the corners from above
+            and tried to make sure they were in line. To line up the cards themselves, I took
+            advantage of the translucency of the cards and patterned off the faint edges of the
+            cards through the paper. I also improvised a measuring tape to try and
+            center the cell in the middle of the 3 x 3 grid.</p>
+
+        <p>Overall, my philosophy for this build was not to achieve perfection, but to instead:
+           design and build on the fly. I thought it would be more fun to overcome engineering
+           challenges as they come up. And lastly, I knew that my structure should easily have
+           enough structural margin to tolerate small misalignments as the tower grew taller.</p>
+        
+        <h4>Corner Supports</h4>
+
+        {centered_img_block('tower-of-cards/taller.jpg',
+                            {subtitle : "Tower after day 4, with corner supports"})}
+        {/* Taller */}
+
         <p>Corner supports are the first &ldquo;hotfix&rdquo; I came up with as I built. Since cards sticking out halfway would be unstable, edges often have overhangs over &ldquo;unstable&rdquo; regions. This is especially noticeable at corners. As an edge/corner droops, it lowers the starting height of the card directly above it, causing the next edge/corner to droop further. This issue compounds as you add layers.</p>
         <p>Eventually, a card on top of a drooped floor teeters on just tipping/sliding off, preventing you from stacking any higher. Thus, I had to develop a fix to go beyond about twelve card layers.</p>
         <p>&lt;hotfix photos&gt;</p>
@@ -86,7 +109,10 @@ export default function FirstPost() {
         <p>Since corner supports also don&rsquo;t lean on anything, they use their full width to prop up the tower (as opposed to the 98% height that leaned cards have). The net sum effect of drooping and the full width let corners be restored to the same height as the center cells.</p>
         <p>Hotfix complete!</p>
         <h4>Upper Levels</h4>
-        <p>Week 5 &lt; photo &gt;&nbsp;</p>
+
+        {centered_img_block('tower-of-cards/day_5.jpg',
+                            {subtitle : "Tower after day 5"})}
+
         <p>As the upper levels had cells cut away from the corners and edges, they had higher perimeter-to-area ratios. This meant that per floor, there was much more relative edge void space compared to rigid central cells. In order to combat the additional drooping, I added corner supports to the increased number of corner positions.</p>
         <p>As the tower got taller, the weight of the upper levels began to increase the loading on the few base layers. This caused noticeable bending.</p>
         <p>&lt; bending photo&gt;</p>
@@ -117,12 +143,13 @@ export default function FirstPost() {
             <li>Have fun! :)
             </li>
         </ul>
-<p>&lt;break&gt;</p>
-<p>Taking down the structure,</p>
-<p>The cards seem to be transferring load vertically critically because you could</p>
-<p>the paper started to form spaced armor</p>
-<p>Cards would get embedded within the structure, cards would get cut, paper would get cut</p>
-<p>We started to get really good at throwing cards</p>
+
+        <p>&lt;break&gt;</p>
+        <p>Taking down the structure,</p>
+        <p>The cards seem to be transferring load vertically critically because you could</p>
+        <p>the paper started to form spaced armor</p>
+        <p>Cards would get embedded within the structure, cards would get cut, paper would get cut</p>
+        <p>We started to get really good at throwing cards</p>
         
 
     </Layout>
