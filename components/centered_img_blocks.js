@@ -11,7 +11,8 @@ function conditional_subtitle(subtitle = ""){
   )
 }
 
-export function triple_centered_img_block(p_l, p_m, p_r) {
+export function triple_centered_img_block(p_l, p_m, p_r,
+  {l_subtitle = "", m_subtitle = "", r_subtitle = ""} = {}) {
   return (<div class="container">
           <div class="row">
             <div class="col my-auto">
@@ -36,10 +37,22 @@ export function triple_centered_img_block(p_l, p_m, p_r) {
               />
             </div>
           </div>
+          <div class="row">
+          <div class="col my-auto">
+          {conditional_subtitle(l_subtitle)}
+          </div>
+          <div class="col my-auto">
+          {conditional_subtitle(m_subtitle)}
+          </div>
+          <div class="col my-auto">
+          {conditional_subtitle(r_subtitle)}
+          </div>
+          </div>
       </div>)
 }
 
-export function dual_centered_img_block(photo_path_left, photo_path_right) {
+export function dual_centered_img_block(photo_path_left, photo_path_right,
+                                       {l_subtitle = "", r_subtitle = ""} = {}) {
     return (
       <div class="container">
       <div class="row">
@@ -57,6 +70,14 @@ export function dual_centered_img_block(photo_path_left, photo_path_right) {
           loading="lazy"
           />
         </div>
+      </div>
+      <div class="row">
+      <div class="col my-auto">
+      {conditional_subtitle(l_subtitle)}
+      </div>
+      <div class="col my-auto">
+      {conditional_subtitle(r_subtitle)}
+      </div>
       </div>
     </div>
     )

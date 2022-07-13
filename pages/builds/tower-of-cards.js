@@ -56,7 +56,8 @@ export default function FirstPost() {
         <h4>Design</h4>
         <p>I wanted to build something tall, something interesting, and something with card-friendly geometry. I also happened to be in Chicago, so the Willis Tower immediately came to mind.</p>
         
-        {dual_centered_img_block('tower-of-cards/planning.jpg', 'tower-of-cards/willis-tower.jpg')}
+        {dual_centered_img_block('tower-of-cards/planning.jpg', 'tower-of-cards/willis-tower.jpg',
+                                 {l_subtitle : "iPad planning", r_subtitle : "Willis Tower"})}
 
         <p>I found a 3D breakdown of the dimensions of the Willis Tower and annotated it on an iPad with rough measurements. As the Willis Tower consists of a 3 x 3 grid, I decided to make the length of a single sheet of paper 2 &ldquo;units&rdquo; to minimize the amount of paper cutting. That means that one &ldquo;unit&rdquo; is 5.5&rdquo;.</p>
         <p>Using simple ratios, given that the base was 3 units long, this makes the base 16.5&rdquo; x 16.5&rdquo;. And since the tower was about 16.5 units tall, this means the projected height of the tower would be 90.75&rdquo;, or Yao Ming (7&rsquo; 6&rdquo;) + 0.75&rdquo; haha. This was an important calculation to verify to make sure I wouldn&rsquo;t hit the ceiling. The ceiling seemed to be 11ft ish, so we were all set.</p>
@@ -71,7 +72,10 @@ export default function FirstPost() {
 
         {triple_centered_img_block('tower-of-cards/base_1.jpg',
                                    'tower-of-cards/base_2.jpg',
-                                   'tower-of-cards/base_3.jpg')}
+                                   'tower-of-cards/base_3.jpg',
+                                   {l_subtitle : "Paper base",
+                                    m_subtitle : "The first few cells",
+                                    r_subtitle : "The first few layers"})}
 
         <p>I used sheets of paper themselves to measure out the 16.5&rdquo; x 16.5&rdquo; base. Then I started stacking.</p>
         <p>The stacking method I used is called the <a href="https://www.wikihow.com/Build-a-House-of-Cards">"four-card cell"</a>.</p>
@@ -104,7 +108,12 @@ export default function FirstPost() {
 
         <p>Corner supports are the first &ldquo;hotfix&rdquo; I came up with as I built. Since cards sticking out halfway would be unstable, edges often have overhangs over &ldquo;unstable&rdquo; regions. This is especially noticeable at corners. As an edge/corner droops, it lowers the starting height of the card directly above it, causing the next edge/corner to droop further. This issue compounds as you add layers.</p>
         <p>Eventually, a card on top of a drooped floor teeters on just tipping/sliding off, preventing you from stacking any higher. Thus, I had to develop a fix to go beyond about twelve card layers.</p>
-        <p>&lt;hotfix photos&gt;</p>
+
+        {dual_centered_img_block('tower-of-cards/without_support.jpg',
+                                 'tower-of-cards/with_support.jpg',
+                                 {l_subtitle : "Without support",
+                                  r_subtitle : "With support"})}
+
         <p>The hotfix I added was a folded card corner support. The folded angle of the card allows it to stand on edges/corners without having to lean on anything, making it ideal to add strength to the voids near the edges/corners. I deemed the issue only severe enough at the corners, so I put two in each corner.</p>
         <p>Since corner supports also don&rsquo;t lean on anything, they use their full width to prop up the tower (as opposed to the 98% height that leaned cards have). The net sum effect of drooping and the full width let corners be restored to the same height as the center cells.</p>
         <p>Hotfix complete!</p>
@@ -115,18 +124,27 @@ export default function FirstPost() {
 
         <p>As the upper levels had cells cut away from the corners and edges, they had higher perimeter-to-area ratios. This meant that per floor, there was much more relative edge void space compared to rigid central cells. In order to combat the additional drooping, I added corner supports to the increased number of corner positions.</p>
         <p>As the tower got taller, the weight of the upper levels began to increase the loading on the few base layers. This caused noticeable bending.</p>
-        <p>&lt; bending photo&gt;</p>
+
+        {centered_img_block('tower-of-cards/bending.jpg',
+                            {subtitle : "Bending 3 braced by J and A"})}
+    
         <p>This was slightly concerning, but interestingly: the bending/buckling action was braced the cards to either side of any given card. Therefore a buckling failure of a layer would require sliding off the paper, which was unlikely. As the tower gets heavier, it increases the loading into the paper, increasing the frictional force keeping the cards from sliding out.</p>
+        
+        <h4>Return of the Spring Constant</h4>
+
         <p>But even if the bending and buckling would not cause a direct loading failure, it did add a lot of compliance due to the flexure. This revealed itself in spring-like behavior. If you bumped the deck or a card as you were stacking, the entire tower would spring away and wobble back with deflections that got larger as the tower got taller. At final levels, the deflection was easily on the order of 5 mm.</p>
         <p>I found this quite interesting as the spring-like behavior was driven mostly by compliance as opposed to being driven by an elastic modulus of the paper.</p>
         <p>I anticipated this issue as I saw it very early on in the skinny high aspect ratio prototype tower. This is one reason I made sure to choose a design with a slightly more reasonable aspect ratio.&nbsp;</p>
         <p>But once the effect takes hold, the only possible mitigation is to be careful, gentle, and patient as you stack cards.</p>
-<       p>Indeed being careful is often a great strategy.</p>
+        <p>Indeed being careful is often a great strategy.</p>
         <h4>Final Levels</h4>
         <p>Once you reach the final levels, you know it&apos;s getting real when you need a chair. These are the most fun layers, and also the scariest as everything is so shaky due to the springiness.</p>
         <p>The final antenna towers were made by tearing the cards a bit and interleaving heavily curled cards.</p>
-        <p>&lt;final pictures&gt;</p>
-        <p>Yay! :</p>
+
+        {centered_img_block('tower-of-cards/finished.jpg',
+                            {subtitle : "7' 6.75\""})}
+
+        <center><p><b>Yay! :)</b></p></center>
         <h4><p>Reflection</p></h4>
         <p>Looking back, sometimes I feel like we ask ourselves, why do we do things like this? What is the value of toy engineering projects?</p>
         <p>The answer I tell myself is that it&rsquo;s a novel mental exercise to apply skills, theory, and philosophies to problems in a completely different field. It was fun to use rapid prototyping styles for a new material I had never worked with and to develop best practices on the fly. It was fun to try and explain why certain behaviors were happening, and then design around them.<br></br>And maybe it was just awesome and cool. Inspiration and teaching are some of the best ways we can motivate progress. The tower gave me something to look forward to, and something to nerd out over with fellow engineers. Projects like these remind us that there are so many problems out there waiting to be solved, challenges waiting to be overcome. Someone just needs to dream of the solution, chase it, and tackle it.</p>
@@ -144,13 +162,13 @@ export default function FirstPost() {
             </li>
         </ul>
 
-        <p>&lt;break&gt;</p>
+        {/* <p>&lt;break&gt;</p>
         <p>Taking down the structure,</p>
         <p>The cards seem to be transferring load vertically critically because you could</p>
         <p>the paper started to form spaced armor</p>
         <p>Cards would get embedded within the structure, cards would get cut, paper would get cut</p>
         <p>We started to get really good at throwing cards</p>
-        
+         */}
 
     </Layout>
   )
