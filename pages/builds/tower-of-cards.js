@@ -145,7 +145,67 @@ export default function FirstPost() {
                             {subtitle : "7' 6.75\""})}
 
         <center><p><b>Yay! :)</b></p></center>
-        <h4><p>Reflection</p></h4>
+
+        <hr></hr>
+
+        <center><h2><p>Death by a Thousand Cuts</p></h2></center>
+        
+        <p>I thought it would be the most fitting if we took down the tower by throwing cards
+            at it. After all, that&rsquo;s how I took down the prototype too.</p>
+        
+        <p>I invited many of my friends, and we all stood about 5 meters away and just
+            started chucking. Quickly we improved, but overall we probably had a 10% hit rate
+            combined. Out of those that hit only 30% ish had enough speed to do any damage.
+            It turns out that the weight of the tower put the cards under enough load that
+            cards would often just bounce off.</p>
+        
+        <p>It was the small fraction of high-speed cards that hit that slowly took out the tower.</p>
+        
+        <p><b>Mid Stages</b></p>
+        
+        <p>As we threw our cards, most of the easy-to-knock-out layers and cells were taken out.
+            At the same time, we started to get more accurate and faster with our throws.
+            During our inspections, as we collected cards, we often found cards that were ripped from
+            direct side-on impacts with papers. We found paper "floors" that were similarly ripped from impacts.</p>
+        
+        <p>Paper was not our target though. The throws that did the most damage were the ones that
+            knocked cards out, or even better got lodged inside the tower as it slid
+            under the cards, disrupting the internal structure.</p>
+        
+        <p>Despite our best efforts, the tower often surprised us with how much tenacity it had.</p>
+        
+        {centered_img_block('tower-of-cards/4-hearts.jpg',
+                            {subtitle : "One card to hold them all"})}
+        
+        <p>As the cards from the tower fell onto the ground, we could also collect them to throw
+            back at the tower. We used the tower against itself. There were easily 5+ decks of cards
+            (~50 each), and we had to &ldquo;re-ollect cards&rdquo; easily 5+ times, so quick
+            napkin math shows we really did deliver death by 1000+ cuts.</p>
+        
+        <p><b>Spaced Armor</b></p>
+        
+        <p>When you knocked out a few cells, they rarely cascaded and pulled down the rest of
+            the structure with it. Logically this makes sense as all the walls are independent of each other,
+            and the tangential load of a hanging sheet of paper was well within the margin of the structure.</p>
+        
+        <p>As a result, unsupported sheets of paper drooped over instead of fully collapsing, forming "spaced-armor"
+             over the vulnerable cards. This made it difficult to damage the tower.</p>
+        
+        {centered_img_block('tower-of-cards/spaced-armor.jpg',
+                            {subtitle : "Drooping paper resembling spaced armor"})}
+        
+        <p><b>The Last Stand</b></p>
+        
+        <p>At this point, we had probably been throwing for over an hour, and our
+            arms were getting quite tired and sore. Despite even stepping forward to throw from only
+            2 meters away, we still could not deliver a killing blow.</p>
+        
+        <p>We decided to step it up a notch and throw entire decks of cards (still inside the box).
+            These were the killing blows.</p>
+        
+        <hr></hr>
+
+        <center><h2><p>Reflection</p></h2></center>
         <p>Looking back, sometimes I feel like we ask ourselves, why do we do things like this? What is the value of toy engineering projects?</p>
         <p>The answer I tell myself is that it&rsquo;s a novel mental exercise to apply skills, theory, and philosophies to problems in a completely different field. It was fun to use rapid prototyping styles for a new material I had never worked with and to develop best practices on the fly. It was fun to try and explain why certain behaviors were happening, and then design around them.</p>
         <p>And maybe it was just awesome and cool. Inspiration and teaching are some of the best ways we can motivate progress. The tower gave me something to look forward to, and something to nerd out over with fellow engineers. Projects like these remind us that there are so many problems out there waiting to be solved, challenges waiting to be overcome. Someone just needs to dream of the solution, chase it, and tackle it.</p>
@@ -157,19 +217,11 @@ export default function FirstPost() {
             </li>
             <li>Wash your hands often to prevent cards from sticking to your hand if you get sweaty hands.
             </li>
-            <li>Document your progress! It&rsquo;s fun to learn and build at the same time
+            <li>Document your progress! It's fun to learn and build at the same time
             </li>
             <li>Have fun! :)
             </li>
         </ul>
-
-        {/* <p>&lt;break&gt;</p>
-        <p>Taking down the structure,</p>
-        <p>The cards seem to be transferring load vertically critically because you could</p>
-        <p>the paper started to form spaced armor</p>
-        <p>Cards would get embedded within the structure, cards would get cut, paper would get cut</p>
-        <p>We started to get really good at throwing cards</p>
-         */}
 
     </Layout>
   )
