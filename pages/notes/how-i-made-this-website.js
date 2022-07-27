@@ -74,6 +74,52 @@ export default function FirstPost() {
         but updating was always a very manual process of literally drag and drop uploading.
         Being able to push with ease on Vercel is a life-saver. Anything that decreases cycle-times is invaluable to engineers.</p>
 
+      <h3>2022 Mardown Blog Upgrade</h3>
+
+      <p>As I headed into the Summer of 2022, I found myself writing much more frequently, atleast once a week.
+        Typically my workflow for writing was to first draft the actual content in Google Docs.
+        </p>
+
+        <p>
+        But there were still additional hoops to put the writing on my website:
+        </p>
+        <ol>
+          <li>Use online converters to turn it into html tags</li>
+          <li>Paste into VSCode and edit the crap out of it </li>
+          <li>Insert images</li>
+          <li>Publish and push to Github/Vercel</li>
+        </ol>
+        <p>
+        The above 3 steps would usually take around an hour (mostly the second step), which is atrocious!
+        Time spent "pushing papes"/"moving code around" should be several orders of magnitude below the time spent writing.
+        </p>
+        <p>
+        The worst part is if I made any large changes to the Google Docs source (such as to do edits/revisions),
+        I would have to go through the above plumbing steps all over again.
+        This overhead actively discouraged edits and improvements, which sucked.
+        </p>
+
+        <p>
+        Thus, I upgraded my website to use the code presented in the <Link href="https://github.com/vercel/next.js/tree/canary/examples/blog-starter">NextJS MD to HTML blog example</Link>.
+        </p>
+
+        <p>Now my workflow is much better:</p>
+        <ol>
+          <li>Use the <Link href="https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607">GoogleDocs to Markdown extension</Link> to generate .md</li>
+          <li>Paste into VSCode directly with no edits</li>
+          <li>Insert images</li>
+          <li>Publish and push to Github/Vercel</li>
+        </ol>
+
+        <p>
+          The above steps take 5 minutes tops. This is soooo much better.
+        </p>
+        
+        <p>It took me about 2 hours to figure out how to add the automatic MD to HTML generation to my website,
+         so as soon as I write two more pieces, I'll be net positive! And as soon as I write two more after that, I'll have justified my investment!
+        </p>
+
+
     </Layout>
 
   )
