@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
+import { siteTitle } from "../components/layout.js"
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import Link from 'next/link'
@@ -11,9 +12,9 @@ import { getAllPosts } from '../lib/api'
 const neg_margin = -12
 const icon_size = "26"
 
-type Props = {
-  allPosts: Post[]
-}
+// type Props = {
+//   allPosts: Post[]
+// }
 
 export default function Home() {
   return (
