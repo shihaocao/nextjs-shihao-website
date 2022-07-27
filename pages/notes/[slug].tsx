@@ -12,6 +12,7 @@ import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
 
+import styles from '../../components/layout.module.css'
 
 type Props = {
   post: PostType
@@ -25,7 +26,8 @@ export default function Post({ post, morePosts, preview }: Props) {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <Layout preview={preview}>
+    // lmao tsx giving a compiler error here
+    <Layout layout_type={styles.container}> 
       <Container>
         <Header />
         {router.isFallback ? (

@@ -166,9 +166,6 @@ export default function Home() {
           &nbsp;haha
         </p>
 
-        <p>Test Section</p>
-        <Link href="/posts/ep">link text</Link>
-
         {/* <h2>For Fun</h2> */}
 
         {/* <div className="grid-small-top">
