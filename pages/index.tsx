@@ -5,8 +5,15 @@ import styles from '../components/layout.module.css'
 import Link from 'next/link'
 import { front_page_post_list } from './notes/notes-landing'
 
+import Post from '../interfaces/post'
+import { getAllPosts } from '../lib/api'
+
 const neg_margin = -12
 const icon_size = "26"
+
+type Props = {
+  allPosts: Post[]
+}
 
 export default function Home() {
   return (
@@ -157,7 +164,10 @@ export default function Home() {
         <p>literally dm me on&nbsp;
           <a href="https://twitter.com/shihao_cao" className="button" target="_blank">Twitter</a>
           &nbsp;haha
-          </p>
+        </p>
+
+        <p>Test Section</p>
+        <Link href="/posts/ep">link text</Link>
 
         {/* <h2>For Fun</h2> */}
 
@@ -223,4 +233,20 @@ export default function Home() {
     
     
   )
+}
+
+
+export const getStaticProps = async () => {
+  const allPosts = getAllPosts([
+    'title',
+    'date',
+    'slug',
+    'author',
+    'coverImage',
+    'excerpt',
+  ])
+
+  return {
+    props: { allPosts },
+  }
 }
