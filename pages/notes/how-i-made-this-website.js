@@ -90,7 +90,7 @@ export default function FirstPost() {
           <li>Publish and push to Github/Vercel</li>
         </ol>
         <p>
-        The above 3 steps would usually take around an hour (mostly the second step), which is atrocious!
+        The second step of the above four would usually take an hour, which is atrocious!
         Time spent "pushing papes"/"moving code around" should be several orders of magnitude below the time spent writing.
         </p>
         <p>
