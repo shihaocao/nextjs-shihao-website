@@ -57,7 +57,7 @@ export default function Home() {
 
         <h3>Previously</h3>
         <p>
-        🛰️ &nbsp; deployed two satellites into space
+        🛰️ &nbsp; led a team that deployed <Link href="https://news.cornell.edu/stories/2022/01/student-built-cubesats-rendezvous-space">two satellites into space</Link>
         <br></br>
         🔩 &nbsp; developed flight software and engines at SpaceX
         {/* <br></br>
@@ -65,7 +65,7 @@ export default function Home() {
         <br></br>
         👨🏻‍🎓 &nbsp; aerospace/CS at TJ
         <br></br>
-        ✈️ &nbsp; founded and led a drone team in high school 
+        ✈️ &nbsp; founded and led an <Link href="https://tj-uav.github.io/home">autonomous plane team</Link>
         {/* <br></br>
         ✈️ &nbsp; rc aircraft entheusiast  */}
         </p>
