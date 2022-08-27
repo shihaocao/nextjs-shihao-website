@@ -12,10 +12,12 @@ const pathfinder_1_text = <p>
 </p>
 
 const pathfinder_2_text = <p>
-  On this iteration, I tested using a commercial flight computer the Pixhawk 4, and two counter rotating
-  propellers. This also used a similar fin based thrust vectoring system. In the picture below, you'll
-  see it hanging from strings as a partial free-hanging system to test roll control. A system I would repeat
-  for Lodestar.
+  On this iteration, I tested using a commercial flight computer the Pixhawk 4, and two counter-rotating
+  propellers. This also used a similar fin-based thrust vectoring system. In the picture below, you'll
+  see it hanging from strings as a partial free-hanging system to test roll control.
+  In this prototype, I found that this split prop design had a much better thrust-to-weight ratio, but that
+  a Pixhawk flight computer did not have sufficient customization for this task. I would repeat the same mechanical
+  and electrical design, but the software and control stack would need upgrading.
 </p>
 
 export default function FirstPost() {
@@ -85,7 +87,7 @@ export default function FirstPost() {
       
       {img_photo_descrip_block_h2(
         "Pathfinder 2 - Counter Rotating Props and Active Control",
-        pathfinder_1_text,
+        pathfinder_2_text,
         '/images/lodestar/counter-rotating.jpg',
         'EDF Vectoring')}
 
