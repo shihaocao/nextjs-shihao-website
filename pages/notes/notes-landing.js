@@ -8,7 +8,7 @@ import { notes_list_element, notes_list_element_full } from '../../components/la
 export function front_page_post_list(){
     return <ul>
       {notes_list_element("Seeking Epilogue", "notes")}
-      {notes_list_element("Packing for SpaceX", "notes")}
+      {/* {notes_list_element("Packing for SpaceX", "notes")} */}
       {notes_list_element("Marino Pasta Recipe", "notes")}
 
       {/* {notes_list_element("Rapid Prototyping Quick Reference", "notes")} */}
