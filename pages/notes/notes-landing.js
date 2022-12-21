@@ -28,6 +28,7 @@ export function front_page_post_list(){
       {notes_list_element("Lovely Pina Colada", "notes")}
       {notes_list_element("Seeking Epilogue", "notes")}
       {notes_list_element("Quotes", "notes")}
+      {notes_list_element("Life Goes On", "notes")}
 
       {notes_list_element_full("How I Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("Longboarding", "longboarding", "notes")}
