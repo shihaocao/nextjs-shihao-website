@@ -39,8 +39,8 @@ export default function FirstPost() {
         <p>Here are the plans for my foam board EDF F86.</p>
 
         <div style={{margin: 40, textAlign: 'center'}}>
-        <a href="files/F86mk2D.dxf" className="card" download><b>Download DXF</b></a>
-        <a href="files/F86mk2Dpdf.zip" className="card" download><b>Download PDF</b></a>
+        <a href="/files/F86mk2D.dxf" className="card" target="_blank"><b>Download DXF</b></a>
+        <a href="/files/F86mk2Dpdf.zip" className="card" target="_blank"><b>Download PDF</b></a>
         </div>
 
 
