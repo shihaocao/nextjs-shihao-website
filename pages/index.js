@@ -45,18 +45,20 @@ export default function Home() {
 
         <h3>Currently</h3>
         <p>
-        🏫 &nbsp; Bachelors in Computer Science at Cornell University
+        🍎 &nbsp; building <Link href="https://www.orchard-robotics.com/">Orchard Robotics</Link>
         <br></br>
-        🔄 &nbsp; Venture Partner at Contrary Capital
-        <br></br>
-        🚗 &nbsp; leading the self-driving car team at Cornell Data Science
-        <br></br>
-        🛠️ &nbsp; building and helping others build
+        🛠️ &nbsp; helping others build
 
         </p>
 
         <h3>Previously</h3>
         <p>
+        🏫 &nbsp; bachelors in Computer Science at Cornell University
+        <br></br>
+        🔄 &nbsp; Venture Partner at Contrary Capital
+        <br></br>
+        🚗 &nbsp; leading the self-driving car team at Cornell Data Science
+        <br></br>
         🛰️ &nbsp; led a team that deployed <Link href="https://news.cornell.edu/stories/2022/01/student-built-cubesats-rendezvous-space">two satellites into space</Link>
         <br></br>
         🔩 &nbsp; developed flight software and engines at SpaceX
