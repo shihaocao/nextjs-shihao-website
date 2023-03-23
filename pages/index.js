@@ -46,8 +46,8 @@ export default function Home() {
         <h3>Currently</h3>
         <p>
         🍎 &nbsp; building <Link href="https://www.orchard-robotics.com/">Orchard Robotics</Link>
-        <br></br>
-        🛠️ &nbsp; helping others build
+        {/* <br></br>
+        🛠️ &nbsp; helping others build */}
 
         </p>
 
