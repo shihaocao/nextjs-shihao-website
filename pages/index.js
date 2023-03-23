@@ -57,7 +57,7 @@ export default function Home() {
         <br></br>
         🔄 &nbsp; Venture Partner at Contrary Capital
         <br></br>
-        🚗 &nbsp; leading the self-driving car team at Cornell Data Science
+        🚗 &nbsp; led the self-driving car team at Cornell Data Science
         <br></br>
         🛰️ &nbsp; led a team that deployed <Link href="https://news.cornell.edu/stories/2022/01/student-built-cubesats-rendezvous-space">two satellites into space</Link>
         <br></br>
