@@ -145,6 +145,18 @@ export default function FirstPost() {
         "longboarding/grad-garage.jpg"
       )}
 
+      <h3>Wolfe, a new artistic touch</h3>
+
+      <p>
+        In the summer of 2023, I leveled up again to a slightly more compact,
+        but still an aggressive downhill board. I call it: <i>Wolfe</i>
+      </p>
+      <p>
+        Check out the build <a href="/builds/wolfe">here</a>!
+      </p>
+
+      {centered_img_block("wolfe/proud-dad.jpg")}
+
       {/* [https://photos.app.goo.gl/pPNmtmEHdfaB7YrF6] */}
     </Layout>
   );

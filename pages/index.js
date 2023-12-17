@@ -116,7 +116,17 @@ export default function Home() {
         <a>other remote control aircraft</a>
         </Link> builds
         </div>
-        
+
+        🐺 &nbsp; painted a <Link href="/builds/wolfe" >
+        <a>wolf longboard</a>
+        </Link>
+
+        <br></br>
+
+        🛠️ &nbsp; <Link href="/builds/builds-landing" >
+        <a>more</a>
+        </Link>
+
         <h3>Happiness</h3>
 
         📸 &nbsp; check out <Link href="/photos" >
