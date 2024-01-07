@@ -42,15 +42,6 @@ export default function Home() {
 
       <section className={utilStyles.headingMd}>
 
-
-        <h3>Currently</h3>
-        <p>
-        🍎 &nbsp; building <Link href="https://www.orchard-robotics.com/">Orchard Robotics</Link>
-        {/* <br></br>
-        🛠️ &nbsp; helping others build */}
-
-        </p>
-
         <h3>Previously</h3>
         <p>
         🏫 &nbsp; bachelors in Computer Science at Cornell University
