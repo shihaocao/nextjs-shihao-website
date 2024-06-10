@@ -131,7 +131,7 @@ export default function FirstPost() {
       <p>To me, both the wolf and the Flanker represent the energy of roaring down the hills.
         There's something so raw about barelling down the hills that calls to me.
         It makes me feel connected with the way that I carve down the roads. Just the same as a wolf
-        sprinting throw the twilight forest, or a Flanker racing to intercept altitude.
+        sprinting through the twilight forest, or a Flanker racing to intercept altitude.
       </p>
 
         <p>And of course, the blue misted fade just makes me feel at home.</p>
