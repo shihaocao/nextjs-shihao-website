@@ -35,6 +35,7 @@ export function front_page_post_list(){
 
       {notes_list_element_full("How I Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("Longboarding", "longboarding", "notes")}
+      {notes_list_element_full("Downhill Skating in SF", "downhill-skating-in-sf", "notes")}
 
     </ul>
   }

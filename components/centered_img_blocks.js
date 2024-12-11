@@ -99,3 +99,20 @@ export function dual_centered_img_block(photo_path_left, photo_path_right,
     </div>
     )
   }
+
+  export function centered_img_block_med(photo_path, {subtitle = ""} = {}) {
+    return (
+      <div class={styles.container}>
+      <div class="row">
+        <div class="col">
+        <img
+          src = {'/images/' + photo_path}
+          alt = ''
+          loading="lazy"
+          />
+          {conditional_subtitle(subtitle)}
+        </div>
+      </div>
+    </div>
+    )
+  }

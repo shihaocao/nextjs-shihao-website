@@ -14,7 +14,7 @@ ogImage:
 
 ### Preface
 
-I first made this spreadsheet for my girlfriend's little brother. I wanted to make it a bit more approachable to getting started in the remote control aircraft hobby. Even though Flite Test offers kits, not all builders know all the other tiny handy parts and equipment you might need to finish the build!
+I first made this spreadsheet for my former girlfriend's little brother. I wanted to make it a bit more approachable to getting started in the remote control aircraft hobby. Even though Flite Test offers kits, not all builders know all the other tiny handy parts and equipment you might need to finish the build!
 
 But fear not! This equipment list will have you covered. The only thing it assumes you already have is excitement to make something fly. :)
 
