@@ -43,6 +43,10 @@ export default function FirstPost() {
         <li>Camera Obscura to Ocean Beach</li>
         <li>Twin Peaks - Christmas Tree Point</li>
       </ul>
+      <h2>Downhill Skating Community</h2>
+      <p>Check out <Link href="https://www.instagram.com/baysessions2?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@baysessions2</Link> on instagram! They are such a wholesome and welcoming community.
+        There are monthly events and weekly skate sessions! My first time hanging with them, people gave me tips and I felt at home doing runs.</p>
+      <p>{centered_img_block_med("downhill_skating_in_sf/baysessions2.jpg", {subtitle: "After the Fanning and Quintara Slidejam 2024"})}</p>
       <h2>Golden Gate Park - Pan Handle to Dutch Windmills</h2>
       <ul>
       <li>230ft drop over 3.7 mi or 70m drop over 5.6km</li>
