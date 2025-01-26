@@ -13,6 +13,11 @@ export function full_post_list(){
     {notes_list_element_full("Tower of Cards", "tower-of-cards", "builds")}
     {notes_list_element_full("All the Remote Control Aircraft I Built", "hangar", "builds")}
     {notes_list_element_full("Painted Downhill Longboard", "wolfe", "builds")}
+    {<li>
+        <Link href={"https://www.listentotheline.com"} >
+        <a>Listen to the Line - a visual piece</a>
+        </Link>
+    </li>}
   </ul>
 }
 
