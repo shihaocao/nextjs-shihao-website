@@ -32,6 +32,7 @@ export function front_page_post_list(){
       {notes_list_element("Beginner RC Aircraft Parts List", "notes")}
       {notes_list_element("People I Learn From", "notes")}
       {notes_list_element("Gentle Reminders", "notes")}
+      {notes_list_element("The Clockmaker", "notes")}
 
       {notes_list_element_full("How I Made This Website", "how-i-made-this-website", "notes")}
       {notes_list_element_full("Longboarding", "longboarding", "notes")}
