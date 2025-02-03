@@ -55,8 +55,8 @@ export default function Home() {
         🔩 &nbsp; developed flight software and engines at SpaceX
         {/* <br></br>
         🔩 &nbsp; speed up high rate manufacturing at SpaceX */}
-        <br></br>
-        👨🏻‍🎓 &nbsp; aerospace/CS at TJ
+        {/* <br></br>
+        👨🏻‍🎓 &nbsp; aerospace/CS at TJ */}
         <br></br>
         ✈️ &nbsp; founded and led an <Link href="https://tj-uav.github.io/home">autonomous plane team</Link>
         {/* <br></br>
@@ -108,10 +108,14 @@ export default function Home() {
         </Link> builds
         </div>
 
+        <div>
         🐺 &nbsp; painted a <Link href="/builds/wolfe" >
         <a>wolf longboard</a>
         </Link>
+        </div>
 
+        🎵 &nbsp; animated a  <a href="https://listentotheline.com" target="_blank">
+        vj mix for a song</a>
         <br></br>
 
         🛠️ &nbsp; <Link href="/builds/builds-landing" >
